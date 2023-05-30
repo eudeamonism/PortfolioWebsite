@@ -1,30 +1,11 @@
-import { Box, Text, Heading, Image, Center, Container } from "@chakra-ui/react";
+import { Box, Container } from "@chakra-ui/react";
 import { Prose } from "@nikolovlazar/chakra-ui-prose";
 
 const About = () => {
   return (
     <Box pt={{ base: "20px", xl: "40px" }}>
-      <Center>
-        <Image
-          src="/assets/VargasEvanProfileSquare.jpg"
-          boxSize={{ base: "175px", md: "275px", xl: "375px" }}
-          borderRadius={"full"}
-          boxShadow={"Base"}
-        />
-      </Center>
-      <Heading as="h1" fontSize={{ base: "2xl", md: "3xl", xl: "4xl" }} textAlign="center" mt={4}>
-        About Me
-      </Heading>
-      <Container w="full" maxW="container.lg" mt={-2}>
+      <Container w="full" maxW="container.lg" mt={-10}>
         <Prose>
-          <p>
-            My name is <strong>Evan Vargas</strong> and I am fullstack engineer with prominent
-            experience in the <strong>MERN</strong> stack. I have created a variety of applications
-            utilizing React for the frontend and various packages to handle state management and UI
-            design such as Redux, MobX, Chakra UI, Semantaic UI while creating CRUD operational APIs
-            utilizing NodeJS and various packages for security such as Express, Helmet, and JWT
-            tokens.
-          </p>
           <h3>Continuing Education</h3>
           <table>
             <thead>

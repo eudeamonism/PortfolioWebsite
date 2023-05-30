@@ -1,4 +1,4 @@
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "./screens/Home";
 import About from "./screens/About";
 import Skills from "./screens/Skills";
@@ -6,10 +6,9 @@ import NavBar from "./screens/NavBar";
 import Projects from "./screens/Projects";
 import Contact from './screens/Contact'
 function App() {
-  const location = useLocation();
   return (
     <>
-      {location.pathname === "/" ? null : <NavBar />}
+      <NavBar />
       <>
         <Routes>
           <Route path="/" element={<Home />} />,

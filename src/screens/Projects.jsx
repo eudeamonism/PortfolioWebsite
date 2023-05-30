@@ -4,6 +4,7 @@ import Ecomm from "../Projects/EComm";
 import Viewer from '../Projects/Viewer'
 import Event from "../Projects/Event";
 import Chat from '../Projects/Chat';
+import Tour from "../Projects/Tour";
 const Contact = () => {
   return (
     <>
@@ -27,6 +28,9 @@ const Contact = () => {
           </TabPanel>
           <TabPanel>
             <Chat />
+          </TabPanel>
+          <TabPanel>
+            <Tour />
           </TabPanel>
         </TabPanels>
       </Tabs>

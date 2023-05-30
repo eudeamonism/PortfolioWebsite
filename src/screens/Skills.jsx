@@ -1,4 +1,4 @@
-import { Heading, Container, Wrap, WrapItem, Text } from "@chakra-ui/react";
+import { Heading, Container } from "@chakra-ui/react";
 import { Prose } from "@nikolovlazar/chakra-ui-prose";
 
 const Skills = () => {

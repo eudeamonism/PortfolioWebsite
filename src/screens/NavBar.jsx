@@ -7,13 +7,13 @@ import {
   Menu,
   MenuButton,
   MenuList,
-  MenuItem,
   Button,
   Text,
 } from "@chakra-ui/react";
 import TitleNav from "../components/TitleNav";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { NavLink } from "../components/NavLink";
+import {NavLink as Linky} from 'react-router-dom'
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState(null);
@@ -61,9 +61,7 @@ const NavBar = () => {
           <Menu isLazy>
             <MenuButton as={Button} rightIcon={<HamburgerIcon />} variant="link" fontSize="xl" />
             <MenuList>
-              <MenuItem as="a" href="/">
-                Home
-              </MenuItem>
+              <Linky to='/'>Home</Linky>
             </MenuList>
           </Menu>
           <Text style={{ fontSize: "large", fontWeight: "bold" }}>Evan Vargas</Text>

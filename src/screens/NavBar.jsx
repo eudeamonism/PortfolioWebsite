@@ -9,11 +9,12 @@ import {
   MenuList,
   Button,
   Text,
+  Link,
+  MenuItem,
 } from "@chakra-ui/react";
 import TitleNav from "../components/TitleNav";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { NavLink } from "../components/NavLink";
-import {NavLink as Linky} from 'react-router-dom'
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState(null);
@@ -58,13 +59,40 @@ const NavBar = () => {
         </>
       ) : (
         <Flex mt="4" gap="4">
-          <Menu isLazy>
+          <Menu>
             <MenuButton as={Button} rightIcon={<HamburgerIcon />} variant="link" fontSize="xl" />
+            
             <MenuList>
-              <Linky to='/'>Home</Linky>
+              <MenuItem>
+                <NavLink to="/" onClick={() => handleLinkClick("/")}>
+                  About Me
+                </NavLink>
+              </MenuItem>
+              <MenuItem>
+                <NavLink to="/about" onClick={() => handleLinkClick("/about")}>
+                  Experience
+                </NavLink>
+              </MenuItem>
+
+              <MenuItem>
+                <NavLink to="/skills" onClick={() => handleLinkClick("/skills")}>
+                  Skills
+                </NavLink>
+              </MenuItem>
+
+              <MenuItem>
+                <NavLink to="/projects" onClick={() => handleLinkClick("/projects")}>
+                  Project
+                </NavLink>
+              </MenuItem>
+
+              <MenuItem>
+                <NavLink to="/contact" onClick={() => handleLinkClick("/contact")}>
+                  Contact
+                </NavLink>
+              </MenuItem>
             </MenuList>
           </Menu>
-          <Text style={{ fontSize: "large", fontWeight: "bold" }}>Evan Vargas</Text>
         </Flex>
       )}
     </Box>

@@ -18,7 +18,7 @@ const About = () => {
             <tbody>
               <tr>
                 <td>
-                  <a href="https://www.udemy.com/course/learn-to-build-an-e-commerce-app-with-react-and-chakra-ui/">
+                  <a target="_blank" href="https://www.udemy.com/course/learn-to-build-an-e-commerce-app-with-react-and-chakra-ui/">
                     <u color="red">Online Ecommerce Website</u>
                   </a>
                 </td>
@@ -37,7 +37,7 @@ const About = () => {
               </tr>
               <tr>
                 <td>
-                  <a href="https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/">
+                  <a target="_blank" href="https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/">
                     <u color="red">MERN Applicatons</u>
                   </a>
                 </td>
@@ -51,7 +51,7 @@ const About = () => {
               </tr>
               <tr>
                 <td>
-                  <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">
+                  <a target="_blank" href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">
                     <u color="red">React</u>
                   </a>
                 </td>
@@ -65,7 +65,7 @@ const About = () => {
               </tr>
               <tr>
                 <td>
-                  <a href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/">
+                  <a target="_blank" href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/">
                     <u color="red">NodeJS Bootcamp</u>
                   </a>
                 </td>
@@ -81,7 +81,7 @@ const About = () => {
               </tr>
               <tr>
                 <td>
-                  <a href="https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/">
+                  <a target="_blank" href="https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/">
                     <u color="red">Javascript Bootcamp</u>
                   </a>
                 </td>
@@ -94,7 +94,7 @@ const About = () => {
               </tr>
               <tr>
                 <td>
-                  <a href="https://www.youtube.com/watch?v=0HcWm2AHnOI&list=PLLTvOn0ouyMtZNbxp7udZIw9uZhOaw6VW&index=3">
+                  <a target="_blank" href="https://www.youtube.com/watch?v=0HcWm2AHnOI&list=PLLTvOn0ouyMtZNbxp7udZIw9uZhOaw6VW&index=3">
                     <u color="red">Photo Slider</u>
                   </a>
                 </td>
@@ -103,7 +103,7 @@ const About = () => {
               </tr>
               <tr>
                 <td>
-                  <a href="https://www.youtube.com/watch?v=ffEDkqfIzxM&pp=ygUOZWQgcm9oIGNoYXRib3Q%3D">
+                  <a target="_blank" href="https://www.youtube.com/watch?v=ffEDkqfIzxM&pp=ygUOZWQgcm9oIGNoYXRib3Q%3D">
                     <u color="red">OpenAi Chat</u>
                   </a>
                 </td>
@@ -112,7 +112,7 @@ const About = () => {
               </tr>
               <tr>
                 <td>
-                  <a href="https://www.udemy.com/course/javascript-object-oriented-h/">
+                  <a target="_blank" href="https://www.udemy.com/course/javascript-object-oriented-h/">
                     <u color="red">JS OOP</u>
                   </a>
                 </td>
@@ -121,7 +121,7 @@ const About = () => {
               </tr>
               <tr>
                 <td>
-                  <a href="https://www.udemy.com/course/complete-microsoft-sql-server-beginner-expert/">
+                  <a target="_blank" href="https://www.udemy.com/course/complete-microsoft-sql-server-beginner-expert/">
                     <u color="red">SQL Databases</u>
                   </a>
                 </td>
@@ -133,7 +133,7 @@ const About = () => {
               </tr>
               <tr>
                 <td>
-                  <a href="https://www.udemy.com/course/html5-fundamentals-for-beginners/">
+                  <a target="_blank" href="https://www.udemy.com/course/html5-fundamentals-for-beginners/">
                     <u color="red">HTML and CSS</u>
                   </a>
                 </td>

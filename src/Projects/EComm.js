@@ -5,6 +5,7 @@ import {
   HStack,
   UnorderedList,
   ListItem,
+  Box
 } from "@chakra-ui/react";
 import { AiOutlineGithub } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
@@ -12,9 +13,9 @@ import { motion } from "framer-motion";
 
 const EComm = () => {
   return (
-    <>
+    <Box >
       <HStack alignItems={"center"}>
-        <Text as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
+        <Text  as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }} >
           eCommerce Project
         </Text>
         <motion.div whileHover={{ color: "lightgrey" }}>
@@ -57,7 +58,7 @@ const EComm = () => {
         <ListItem>Deployed the site with Render.</ListItem>
         <ListItem>Created dynamic pages for mobile and larger screens.</ListItem>
       </UnorderedList>
-    </>
+    </Box>
   );
 };
 

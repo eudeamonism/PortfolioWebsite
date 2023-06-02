@@ -5,6 +5,7 @@ import Viewer from "../Projects/Viewer";
 import Event from "../Projects/Event";
 import Chat from "../Projects/Chat";
 import Tour from "../Projects/Tour";
+import Porty from '../Projects/Porty'
 const Contact = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Contact = () => {
           <Tab>Event</Tab>
           <Tab>Chat</Tab>
           <Tab>Touring</Tab>
+          <Tab>Portfolio</Tab>
         </TabList>
         <TabPanels>
           <TabPanel>
@@ -31,6 +33,9 @@ const Contact = () => {
           </TabPanel>
           <TabPanel>
             <Tour />
+          </TabPanel>
+          <TabPanel>
+            <Porty />
           </TabPanel>
         </TabPanels>
       </Tabs>

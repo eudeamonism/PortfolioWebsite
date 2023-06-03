@@ -13,8 +13,8 @@ import { motion } from "framer-motion";
 
 const EComm = () => {
   return (
-    <Box >
-      <HStack alignItems={"center"}>
+    <Box borderWidth={'1px'} p={{base: '1em', md: '1.5em', lg: '2em'}} mt='-1' borderColor={'#1796F3'}>
+      <HStack alignItems={"center"} >
         <Text color={'#FF9E0D'} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }} >
           eCommerce Project
         </Text>

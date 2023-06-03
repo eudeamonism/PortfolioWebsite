@@ -1,10 +1,10 @@
-import { Text, Link, HStack, UnorderedList, ListItem } from "@chakra-ui/react";
+import { Text, Link, HStack, UnorderedList, ListItem, Box } from "@chakra-ui/react";
 import { AiOutlineGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 
 const Porty = () => {
   return (
-    <>
+    <Box borderWidth={'1px'} p={{base: '1em', md: '1.5em', lg: '2em'}} mt='-1' borderColor={'#1796F3'}>
       <HStack alignItems={"center"}>
         <Text color={'#FF9E0D'} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
           Portoflio Website
@@ -24,7 +24,7 @@ const Porty = () => {
         <ListItem>Utilizes headless and React Components</ListItem>
         <ListItem>Created a responsive and informative design with Chakra UI</ListItem>
       </UnorderedList>
-    </>
+    </Box>
   );
 };
 

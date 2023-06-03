@@ -1,10 +1,10 @@
-import { Text, Link, HStack, UnorderedList, ListItem } from "@chakra-ui/react";
+import { Text, Link, HStack, UnorderedList, ListItem, Box } from "@chakra-ui/react";
 import { AiOutlineGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 
 const Chat = () => {
   return (
-    <>
+    <Box borderWidth={'1px'} p={{base: '1em', md: '1.5em', lg: '2em'}} mt='-1' borderColor={'#1796F3'}>
       <HStack alignItems={"center"}>
         <Text color={'#FF9E0D'} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
           OpenAi Chat App
@@ -27,7 +27,7 @@ const Chat = () => {
         <ListItem>Redux Toolkit, Node, and Sass for application development</ListItem>
         <ListItem>Git Repository for version control</ListItem>
       </UnorderedList>
-    </>
+    </Box>
   );
 };
 

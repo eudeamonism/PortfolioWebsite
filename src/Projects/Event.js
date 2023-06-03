@@ -1,10 +1,10 @@
-import { Text, Link, HStack, UnorderedList, ListItem } from "@chakra-ui/react";
+import { Text, Link, HStack, UnorderedList, ListItem, Box } from "@chakra-ui/react";
 import { AiOutlineGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 
 const Event = () => {
   return (
-    <>
+    <Box borderWidth={'1px'} p={{base: '1em', md: '1.5em', lg: '2em'}} mt='-1' borderColor={'#1796F3'}>
       <HStack alignItems={"center"}>
         <Text color={'#FF9E0D'} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
           Favorite Place App
@@ -28,7 +28,7 @@ const Event = () => {
         <ListItem>Use of Git Repository for version control: Version control with Git.</ListItem>
         <ListItem>Use of geospatial queries: Location-based search.</ListItem>
       </UnorderedList>
-    </>
+    </Box>
   );
 };
 

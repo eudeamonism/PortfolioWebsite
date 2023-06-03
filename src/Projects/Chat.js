@@ -6,7 +6,7 @@ const Chat = () => {
   return (
     <>
       <HStack alignItems={"center"}>
-        <Text as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
+        <Text color={'#FF9E0D'} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
           OpenAi Chat App
         </Text>
         <motion.div whileHover={{ color: "lightgrey" }}>
@@ -15,13 +15,13 @@ const Chat = () => {
           </Link>
         </motion.div>
       </HStack>
-      <Text fontSize={{ base: "sm", md: "md", lg: "lg" }}>
+      <Text color={'#1B4F8C'} fontSize={{ base: "sm", md: "md", lg: "lg" }}>
         I created a chat application that uses OpenAI intelligence to answer questions from users.
         The application was created using Vite and React, and it utilizes various APIs and filters
         to provide a variety of features, such as login authentication, different roles for AI
         responses, and more.
       </Text>
-      <UnorderedList fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4">
+      <UnorderedList color={'#1B4F8C'} fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4">
         <ListItem>ChatEngine API for chat functionality</ListItem>
         <ListItem>OpenAI API for text generation</ListItem>
         <ListItem>Redux Toolkit, Node, and Sass for application development</ListItem>

@@ -10,9 +10,10 @@ const TitleNav = () => {
       marginLeft={6}
       marginTop={4}
       fontSize={{ base: "md", md: "lg", xl: "xl" }}
+      
     >
       <Link as={ReactLink} to="/" style={{ textDecoration: "none" }}>
-        <motion.div whileHover={{ scale: 1.2 }}>Evan Vargas</motion.div>
+        <motion.div whileHover={{ scale: 1.2, color: '#FF9E0D' }}>Evan Vargas</motion.div>
       </Link>
     </Text>
   );

@@ -8,7 +8,31 @@ const modernTheme = extendTheme(
       body: `'Raleway', sans-serif`,
     },
   },
-  withProse()
+  withProse({
+    baseStyle: {
+      h3: {
+        color: '#1796F3',
+      },
+      h4: {
+        color: '#FF9E0D',
+      },
+      thead:{
+        color: '#FF9E0D'
+      },
+      tbody: {
+        color: '#1B4F8C'
+      },
+      li: {
+        color: '#1B4F8C'
+      },
+      p: {
+        color: '#1B4F8C'
+      },
+      u: {
+        color: '#1796F3'
+      }
+    }
+  })
 );
 
 export default modernTheme;

@@ -9,6 +9,7 @@ const Skills = () => {
         fontSize={{ base: "2xl", md: "3xl", xl: "4xl" }}
         textAlign="center"
         pt={{ base: "20px", xl: "40px" }}
+        color={'#1796F3'}
       >
         Technical Skills
       </Heading>

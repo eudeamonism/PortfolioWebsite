@@ -15,7 +15,7 @@ const EComm = () => {
   return (
     <Box >
       <HStack alignItems={"center"}>
-        <Text  as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }} >
+        <Text color={'#FF9E0D'} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }} >
           eCommerce Project
         </Text>
         <motion.div whileHover={{ color: "lightgrey" }}>
@@ -29,14 +29,14 @@ const EComm = () => {
           </Link>
         </motion.div>
       </HStack>
-      <Text fontSize={{ base: "sm", md: "md", lg: "lg" }}>
+      <Text color={'#1B4F8C'} fontSize={{ base: "sm", md: "md", lg: "lg" }}>
         I built and deployed an eCommerce site using the MERN stack. The site has features such as
         user accounts, login security, shopping baskets, orders, profiles, checkout, PayPal
         gateways, and administrator privileges. The site is secure and uses a variety of server and
         client-side security measures to protect user data. The site is also responsive and can be
         viewed on any device.
       </Text>
-      <UnorderedList fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4">
+      <UnorderedList color={'#1B4F8C'} fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4">
         <ListItem>
           Built an eCommerce site using the MERN stack and other helper packages, such as Redux,
           MongoDB Compass, and Object data mapping.

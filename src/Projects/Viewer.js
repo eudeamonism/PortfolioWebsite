@@ -8,7 +8,7 @@ const Viewer = () => {
   return (
     <>
       <HStack alignItems={"center"}>
-        <Text as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
+        <Text color={'#FF9E0D'} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
           Photo Slider
         </Text>
         <motion.div whileHover={{ color: "lightgrey" }}>
@@ -22,11 +22,11 @@ const Viewer = () => {
           </Link>
         </motion.div>
       </HStack>
-      <Text fontSize={{ base: "sm", md: "md", lg: "lg" }}>
+      <Text color={'#1B4F8C'} fontSize={{ base: "sm", md: "md", lg: "lg" }}>
         I built and deployed a photo slider site with animation using TypeScript, React, and Sass.
         The site is responsive and can be viewed on any device.
       </Text>
-      <UnorderedList fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4">
+      <UnorderedList color={'#1B4F8C'} fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4">
         <ListItem>
           Used TypeScript to add type safety and other features to my JavaScript code.
         </ListItem>

@@ -6,7 +6,7 @@ const Porty = () => {
   return (
     <>
       <HStack alignItems={"center"}>
-        <Text as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
+        <Text color={'#FF9E0D'} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
           Portoflio Website
         </Text>
         <motion.div whileHover={{ color: "lightgrey" }}>
@@ -15,12 +15,12 @@ const Porty = () => {
           </Link>
         </motion.div>
       </HStack>
-      <Text fontSize={{ base: "sm", md: "md", lg: "lg" }}>
+      <Text color={'#1B4F8C'} fontSize={{ base: "sm", md: "md", lg: "lg" }}>
         I designed and created this portfolio website using React and Chakra UI. It displays a variety of
         applications alongside my education and technical experience. The website is dynamically
         built to interact with mobile, tablet, and desktop devices.
       </Text>
-      <UnorderedList fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4">
+      <UnorderedList color={'#1B4F8C'} fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4">
         <ListItem>Utilizes headless and React Components</ListItem>
         <ListItem>Created a responsive and informative design with Chakra UI</ListItem>
       </UnorderedList>

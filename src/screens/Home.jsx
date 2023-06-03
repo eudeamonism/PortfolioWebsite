@@ -15,7 +15,7 @@ const Home = () => {
               boxShadow={"Base"}
             />
           </Center>
-          <Heading as="h1" fontSize={{ base: "2xl", md: "3xl", xl: "4xl" }} textAlign="center" mt={4}>
+          <Heading as="h1" color={'#FF9E0D'} fontSize={{ base: "2xl", md: "3xl", xl: "4xl" }} textAlign="center" mt={4}>
         About Me
       </Heading>
       <Container w="full" maxW="container.lg" mt={-2}>

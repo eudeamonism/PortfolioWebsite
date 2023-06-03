@@ -1,12 +1,15 @@
-import { Box, Container } from "@chakra-ui/react";
+import { Box, Container, Text } from "@chakra-ui/react";
 import { Prose } from "@nikolovlazar/chakra-ui-prose";
 
+
 const About = () => {
+  
+
   return (
     <Box pt={{ base: "20px", xl: "40px" }}>
       <Container w="full" maxW="container.lg" mt={-10}>
         <Prose>
-          <h3>Continuing Education</h3>
+          <h3 color='red'>Continuing Education</h3>
           <table>
             <thead>
               <tr>
@@ -19,7 +22,7 @@ const About = () => {
               <tr>
                 <td>
                   <a target="_blank" href="https://www.udemy.com/course/learn-to-build-an-e-commerce-app-with-react-and-chakra-ui/">
-                    <u color="red">Online Ecommerce Website</u>
+                    <u >Online Ecommerce Website</u>
                   </a>
                 </td>
                 <td>

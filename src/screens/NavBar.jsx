@@ -30,7 +30,13 @@ const NavBar = () => {
       {isLargerThan500 ? (
         <>
           <Flex flexDirection="row" justifyContent="space-evenly">
-            <TitleNav />
+            <NavLink
+              to="/"
+              onClick={() => handleLinkClick("/")}
+              active={activeLink === "/"}
+            >
+              <Text as='b' fontSize={{ base: "md", md: "lg", xl: "xl" }}>Evan Vargas</Text>
+            </NavLink>
             <NavLink
               to="/about"
               onClick={() => handleLinkClick("/about")}
@@ -52,9 +58,14 @@ const NavBar = () => {
             >
               <Text fontSize={{ base: "md", md: "lg", xl: "xl" }}>Projects</Text>
             </NavLink>
-            <NavLink to="/contact" onClick={() => handleLinkClick("/contact")}>
+            <NavLink
+              to="/contact"
+              onClick={() => handleLinkClick("/contact")}
+              active={activeLink === "/contact"}
+            >
               <Text fontSize={{ base: "md", md: "lg", xl: "xl" }}>Contact</Text>
             </NavLink>
+            
           </Flex>
         </>
       ) : (

@@ -5,18 +5,30 @@ import Viewer from "../Projects/Viewer";
 import Event from "../Projects/Event";
 import Chat from "../Projects/Chat";
 import Tour from "../Projects/Tour";
-import Porty from '../Projects/Porty'
+import Porty from "../Projects/Porty";
 const Contact = () => {
   return (
     <>
       <Tabs isFitted variant="enclosed" mt="10">
-        <TabList mb="1em">
-          <Tab>eCommerce</Tab>
-          <Tab>Viewer</Tab>
-          <Tab>Event</Tab>
-          <Tab>Chat</Tab>
-          <Tab>Touring</Tab>
-          <Tab>Portfolio</Tab>
+        <TabList color={"gray.600"} mb="1em">
+          <Tab _selected={{ color: "white", bg: "#1796F3" }} fontWeight={"medium"}>
+            eCommerce
+          </Tab>
+          <Tab _selected={{ color: "white", bg: "#1796F3" }} fontWeight={"medium"}>
+            Viewer
+          </Tab>
+          <Tab _selected={{ color: "white", bg: "#1796F3" }} fontWeight={"medium"}>
+            Event
+          </Tab>
+          <Tab _selected={{ color: "white", bg: "#1796F3" }} fontWeight={"medium"}>
+            Chat
+          </Tab>
+          <Tab _selected={{ color: "white", bg: "#1796F3" }} fontWeight={"medium"}>
+            Touring
+          </Tab>
+          <Tab _selected={{ color: "white", bg: "#1796F3" }} fontWeight={"medium"}>
+            Portfolio
+          </Tab>
         </TabList>
         <TabPanels>
           <TabPanel>

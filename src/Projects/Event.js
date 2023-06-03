@@ -6,7 +6,7 @@ const Event = () => {
   return (
     <>
       <HStack alignItems={"center"}>
-        <Text as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
+        <Text color={'#FF9E0D'} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
           Favorite Place App
         </Text>
         <motion.div whileHover={{ color: "lightgrey" }}>
@@ -15,12 +15,12 @@ const Event = () => {
           </Link>
         </motion.div>
       </HStack>
-      <Text fontSize={{ base: "sm", md: "md", lg: "lg" }}>
+      <Text color={'#1B4F8C'} fontSize={{ base: "sm", md: "md", lg: "lg" }}>
         I created a destination application using the MERN stack. This application allows users to
         create, delete, and share their favorite destinations. It has a simple login authentication
         system that protects user data.
       </Text>
-      <UnorderedList fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4">
+      <UnorderedList color={'#1B4F8C'} fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4">
         <ListItem>Use of props to handle state changes: State management with props.</ListItem>
         <ListItem>Utilization of REST API: Data access via REST API.</ListItem>
         <ListItem>Use of MongoDB, Express, React, and Node: MERN stack.</ListItem>

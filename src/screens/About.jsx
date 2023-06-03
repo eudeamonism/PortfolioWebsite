@@ -15,7 +15,8 @@ const About = () => {
               <tr>
                 <th>Courses</th>
                 <th>Skills Gained</th>
-                <th>Training</th>
+                <th>Course</th>
+                <th>Practice</th>
               </tr>
             </thead>
             <tbody>
@@ -36,7 +37,8 @@ const About = () => {
                   administrator has editing privileges such that he can add or remove users and
                   products while the user can add and remove products and update his credentials.
                 </td>
-                <td>21 hours+</td>
+                <td>21 hours</td>
+                <td>60 hours+</td>
               </tr>
               <tr>
                 <td>
@@ -50,7 +52,8 @@ const About = () => {
                   state management, such as props and Redux, while creating CRUD APIs with NodeJS
                   and housing data in MongoDB.
                 </td>
-                <td>19 hours+</td>
+                <td>19 hours</td>
+                <td>50 hours+</td>
               </tr>
               <tr>
                 <td>
@@ -64,7 +67,8 @@ const About = () => {
                   useEffect, useState, and useReducer, while exploring various strategies for state
                   management through portals, refs, and introduction to TypeScript.
                 </td>
-                <td>48 hours+</td>
+                <td>48 hours</td>
+                <td>60 hours+</td>
               </tr>
               <tr>
                 <td>
@@ -80,7 +84,8 @@ const About = () => {
                   about security, encryption, and sanitization, and I implemented these concepts in
                   my application, which was a tourist retreat website.
                 </td>
-                <td>35 hours+</td>
+                <td>35 hours</td>
+                <td>70 hours+</td>
               </tr>
               <tr>
                 <td>
@@ -93,7 +98,8 @@ const About = () => {
                   functions, handle data, understand prototypes, handle events, manipulate the DOM,
                   and strengthen object-oriented programming concepts.
                 </td>
-                <td>25 hours+</td>
+                <td>25 hours</td>
+                <td>50 hours+</td>
               </tr>
               <tr>
                 <td>
@@ -102,7 +108,8 @@ const About = () => {
                   </a>
                 </td>
                 <td>I created and deployed a photo slider utilizing Typescript and React.</td>
-                <td>1.5 hours+</td>
+                <td>1.5 hours</td>
+                <td>5 hours+</td>
               </tr>
               <tr>
                 <td>
@@ -111,7 +118,8 @@ const About = () => {
                   </a>
                 </td>
                 <td>I created a chat utilizing OpenAI API and React</td>
-                <td>3 hours+</td>
+                <td>3 hours</td>
+                <td>10 hours+</td>
               </tr>
               <tr>
                 <td>
@@ -120,7 +128,8 @@ const About = () => {
                   </a>
                 </td>
                 <td>I learned more about Object Oriented Programming with Javascript</td>
-                <td>2 hours+</td>
+                <td>2 hours</td>
+                <td>3 hours+</td>
               </tr>
               <tr>
                 <td>
@@ -132,7 +141,8 @@ const About = () => {
                   I learned about creating queries, filtering, sorting, grouping, joining, and
                   creating tables for Microsoft SQL, MySQL, PostgreSQL, and SQLLite.
                 </td>
-                <td>2 hours+</td>
+                <td>2 hours</td>
+                <td>5 hours+</td>
               </tr>
               <tr>
                 <td>
@@ -141,7 +151,8 @@ const About = () => {
                   </a>
                 </td>
                 <td>I created a complete website with navigation using HTML and CSS.</td>
-                <td>5 hours+</td>
+                <td>5 hours</td>
+                <td>8 hours+</td>
               </tr>
             </tbody>
           </table>

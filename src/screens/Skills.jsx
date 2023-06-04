@@ -1,20 +1,32 @@
-import { Heading, Container } from "@chakra-ui/react";
+import {
+  Heading,
+  Container,
+  Box,
+  VStack,
+  HStack,
+  Divider,
+  Stack,
+  Text,
+  Tag,
+  TagLabel,
+} from "@chakra-ui/react";
 import { Prose } from "@nikolovlazar/chakra-ui-prose";
+import TechBox from "../components/TechBox";
 
 const Skills = () => {
   return (
-    <>
+    <Container maxW="container.lg">
       <Heading
         as="h1"
         fontSize={{ base: "2xl", md: "3xl", xl: "4xl" }}
         textAlign="center"
         pt={{ base: "20px", xl: "40px" }}
-        color={'#1796F3'}
+        color={"#1796F3"}
       >
         Technical Skills
       </Heading>
 
-      <Container w="full" maxW="container.lg">
+      <Container maxW="container.lg" borderWidth={"1px"} mt="4">
         <Prose>
           <h4>Programming Languages</h4>
           <ul>
@@ -79,7 +91,7 @@ const Skills = () => {
           <hr />
         </Prose>
       </Container>
-    </>
+    </Container>
   );
 };
 

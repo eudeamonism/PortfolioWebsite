@@ -9,7 +9,7 @@ export const NavLink = ({ to, onClick, active, children }) => {
       to={to}
       onClick={onClick}
       fontWeight={active ? "bold" : "normal"}
-      color={active ? "#0067D6" : "inherit"}
+      color={active ? "#0067D6" : "#1B4F8C"}
       textDecoration="none"
       marginRight={4}
       marginTop={4}

@@ -9,8 +9,8 @@ import Porty from "../Projects/Porty";
 const Contact = () => {
   return (
     <>
-      <Tabs isFitted variant="enclosed" mt="10">
-        <TabList color={"gray.600"} mb="1em">
+      <Tabs isFitted variant="enclosed" mt="10" >
+        <TabList color={"#1B4F8C"} mb="1em">
           <Tab _selected={{ color: "white", bg: "#1796F3" }} fontWeight={"medium"}>
             eCommerce
           </Tab>

@@ -1,9 +1,10 @@
-import { Text, Link, HStack, UnorderedList, ListItem, Box } from "@chakra-ui/react";
+import { Text, Link, HStack, UnorderedList, ListItem, Box, Container } from "@chakra-ui/react";
 import { AiOutlineGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 
 const Tour = () => {
   return (
+    <Container minW={"400px"} maxW="container.xl">
     <Box borderWidth={'1px'} p={{base: '1em', md: '1.5em', lg: '2em'}} mt='-1'>
       <HStack alignItems={"center"}>
         <Text color={'#FF9E0D'} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
@@ -31,6 +32,7 @@ const Tour = () => {
         <ListItem>Supports admin and user roles</ListItem>
       </UnorderedList>
     </Box>
+    </Container>
   );
 };
 

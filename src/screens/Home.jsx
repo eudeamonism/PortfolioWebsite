@@ -18,7 +18,7 @@ const Home = () => {
           <Heading as="h1" color={'#FF9E0D'} fontSize={{ base: "2xl", md: "3xl", xl: "4xl" }} textAlign="center" mt={4}>
         About Me
       </Heading>
-      <Container w="full" maxW="container.lg" mt={-2}>
+      <Container w="full" maxW="container.xl" mt={-2} minW={'sm'}>
         <Prose>
           <p>
             My name is <strong>Evan Vargas</strong> and I am fullstack engineer with prominent

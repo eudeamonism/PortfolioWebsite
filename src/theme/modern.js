@@ -1,5 +1,7 @@
-import { defineStyle, defineStyleConfig, extendTheme } from "@chakra-ui/react";
+import { extendTheme } from "@chakra-ui/react";
 import { withProse } from "@nikolovlazar/chakra-ui-prose";
+
+
 
 const modernTheme = extendTheme(
   {
@@ -11,13 +13,13 @@ const modernTheme = extendTheme(
   withProse({
     baseStyle: {
       h3: {
-        color: "#1796F3",
+        color: "#FF9E0D",
       },
       h4: {
         color: "#FF9E0D",
       },
       thead: {
-        color: "#FF9E0D",
+        color: "#1796F3",
       },
       tbody: {
         color: "#1B4F8C",
@@ -29,10 +31,10 @@ const modernTheme = extendTheme(
         color: "#1B4F8C",
       },
       u: {
-        color: "#1796F3",
+        color: "#1B4F8C",
       },
     },
-  })
+  }),
 );
 
 export default modernTheme;

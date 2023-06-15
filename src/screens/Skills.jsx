@@ -28,6 +28,10 @@ const Skills = () => {
               responses between the frontend and database.
             </li>
             <li>
+              <b>.NET</b> &emsp; Great understanding in creating RESTful APIs that navigate request and
+              responses between the frontend and database.
+            </li>
+            <li>
               <b>TypeScript</b> &emsp; Knowledgeable on utilizing type safety to help prevent errors
               and make code more readable
             </li>

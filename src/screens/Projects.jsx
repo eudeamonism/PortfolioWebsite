@@ -5,6 +5,7 @@ import Viewer from "../Projects/Viewer";
 import Event from "../Projects/Event";
 import Chat from "../Projects/Chat";
 import Tour from "../Projects/Tour";
+import Tour2 from "../Projects/Tour2";
 import Porty from "../Projects/Porty";
 const Contact = () => {
   return (
@@ -43,8 +44,9 @@ const Contact = () => {
           <TabPanel>
             <Chat />
           </TabPanel>
-          <TabPanel>
+          <TabPanel >
             <Tour />
+            <Tour2/>
           </TabPanel>
           <TabPanel>
             <Porty />

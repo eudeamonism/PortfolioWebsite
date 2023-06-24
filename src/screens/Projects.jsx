@@ -45,8 +45,8 @@ const Contact = () => {
             <Chat />
           </TabPanel>
           <TabPanel >
-            <Tour />
             <Tour2/>
+            <Tour />
           </TabPanel>
           <TabPanel>
             <Porty />

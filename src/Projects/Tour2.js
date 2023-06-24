@@ -11,7 +11,7 @@ const Tour = () => {
           NZWalks
         </Text>
         <motion.div whileHover={{ color: "lightgrey" }}>
-          <Link href="https://github.com/eudeamonism/1.24NAT" pt="1" isExternal>
+          <Link href="https://github.com/eudeamonism/NZWalks" pt="1" isExternal>
             <AiOutlineGithub style={{ width: "25px", height: "25px", display: "inline-block" }} />
           </Link>
         </motion.div>

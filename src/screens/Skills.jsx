@@ -28,8 +28,8 @@ const Skills = () => {
               responses between the frontend and database.
             </li>
             <li>
-              <b>.NET</b> &emsp; Great understanding in creating RESTful APIs that navigate request and
-              responses between the frontend and database.
+              <b>.NET</b> &emsp; Great understanding in creating RESTful APIs that navigate request
+              and responses between the frontend and database.
             </li>
             <li>
               <b>TypeScript</b> &emsp; Knowledgeable on utilizing type safety to help prevent errors
@@ -75,8 +75,9 @@ const Skills = () => {
             <li>
               <b>APIs and More</b> &emsp; Password hashing, tokenization of data, testing APIs,
               constructing REST APIs, CRUD operations, application deployment, PayPal & OpenAI API
-              integration, extensive library implementation, developing knowledge on AWS and Azure
-              services and utilization and Docker images and containers..
+              integration, Cloudinary API, OTP Password Reset, extensive library implementation,
+              developing knowledge on AWS and Azure services and utilization and Docker images and
+              containers..
             </li>
           </ul>
 

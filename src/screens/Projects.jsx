@@ -7,6 +7,8 @@ import Chat from "../Projects/Chat";
 import Tour from "../Projects/Tour";
 import Tour2 from "../Projects/Tour2";
 import Porty from "../Projects/Porty";
+import Store from "../Projects/Store";
+import Cargo from "../Projects/Cargo";
 const Contact = () => {
   return (
     <>
@@ -30,6 +32,12 @@ const Contact = () => {
           <Tab _selected={{ color: "white", bg: "#1796F3" }} fontWeight={"medium"}>
             Portfolio
           </Tab>
+          <Tab _selected={{ color: "white", bg: "#1796F3" }} fontWeight={"medium"}>
+            Store
+          </Tab>
+          <Tab _selected={{ color: "white", bg: "#1796F3" }} fontWeight={"medium"}>
+            Cargo
+          </Tab>
         </TabList>
         <TabPanels>
           <TabPanel>
@@ -50,6 +58,12 @@ const Contact = () => {
           </TabPanel>
           <TabPanel>
             <Porty />
+          </TabPanel>
+          <TabPanel>
+            <Store />
+          </TabPanel>
+          <TabPanel>
+            <Cargo />
           </TabPanel>
         </TabPanels>
       </Tabs>

@@ -8,6 +8,37 @@ const Event = () => {
     <Box borderWidth={'1px'} p={{base: '1em', md: '1.5em', lg: '2em'}} mt='-1'>
       <HStack alignItems={"center"}>
         <Text color={'#FF9E0D'} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
+          Neighbors Sandbox
+        </Text>
+        <motion.div whileHover={{ color: "lightgrey" }}>
+          <Link href="https://github.com/eudeamonism/neighborsWebsite" pt="1" isExternal>
+            <AiOutlineGithub style={{ width: "25px", height: "25px", display: "inline-block" }} />
+          </Link>
+        </motion.div>
+        <motion.div whileHover={{ color: "lightgrey" }}>
+          <Link href="https://github.com/eudeamonism/neighborsAPI" pt="1" isExternal>
+            <AiOutlineGithub style={{ width: "25px", height: "25px", display: "inline-block" }} />
+          </Link>
+        </motion.div>
+      </HStack>
+      <Text color={'#1B4F8C'} fontSize={{ base: "sm", md: "md", lg: "lg" }}>
+        A Sandbox project meant to explore features through a complaint-like web app meant for users to report complaints or disturbances in their neighborhood. 
+      </Text>
+      <UnorderedList color={'#1B4F8C'} fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4">
+        <ListItem>Redux global state handling</ListItem>
+        <ListItem>Utilization of REST API: Data access via REST API.</ListItem>
+        <ListItem>Use of MongoDB, Express, React, and Node: MERN stack.</ListItem>
+        <ListItem>Chakra UI Library for UI/UX design</ListItem>
+        <ListItem>Figma Sketches</ListItem>
+        <ListItem>Use of Git Repository for version control: Version control with Git.</ListItem>
+        <ListItem>Upload Images and Delete Image via Cloudinary API</ListItem>
+        <ListItem>Login Authentication and Middleware</ListItem>
+        <ListItem>OTP Password Reset</ListItem>
+      </UnorderedList>
+    </Box>
+    <Box borderWidth={'1px'} p={{base: '1em', md: '1.5em', lg: '2em'}} mt='4'>
+      <HStack alignItems={"center"}>
+        <Text color={'#FF9E0D'} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
           Favorite Place App
         </Text>
         <motion.div whileHover={{ color: "lightgrey" }}>

@@ -44,6 +44,34 @@ const About = () => {
                     </td>
                     <td>10/01/23</td>
                   </tr>
+                  <tr>
+                    <td>
+                      <a
+                        target="_blank"
+                        href="https://www.credly.com/earner/earned/badge/ab89689d-871c-45fa-94dc-cf77b26c1bf0"
+                      >
+                        <u>AWS Educate Getting Started with Compute</u>
+                      </a>
+                    </td>
+                    <td>
+                    Earners of this badge have completed the Getting Started with Compute training and achieved the required scores on the post-course assessment. They have demonstrated the ability to describe different types of compute and use Amazon EC2 to create a compute instance.
+                    </td>
+                    <td>10/03/23</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a
+                        target="_blank"
+                        href="https://www.credly.com/earner/earned/badge/b9c6035a-09ec-4cbe-b4b1-f7beacb956eb"
+                      >
+                        <u>AWS Educate Getting Started with Networking</u>
+                      </a>
+                    </td>
+                    <td>
+                    Earners of this badge have completed the Getting Started with Networking training and achieved the required scores on the post-course assessment. They have demonstrated the ability to describe different ways to manage a network and how to use an Amazon VPC to do so.
+                    </td>
+                    <td>10/03/23</td>
+                  </tr>
                 </tbody>
               </table>
               <h4>Continuing Education</h4>

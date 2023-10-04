@@ -31,19 +31,34 @@ const About = () => {
                     <td>
                       <a
                         target="_blank"
-                        href="https://www.credly.com/badges/d65b8e5b-f2f3-4419-8048-2b1ee772c3ee"
+                        href="https://www.credly.com/earner/earned/badge/5f4da139-2cb2-400c-89f0-cb0c3692bc7d"
                       >
-                        <u>AWS Educate Getting Started with Storage</u>
+                        <u>AWS Educate Getting Started with Cloud Ops</u>
                       </a>
                     </td>
                     <td>
-                      Earners of this badge have completed the Getting Started with Storage training
-                      and achieved the required scores on the post-course assessment. They have
-                      demonstrated the ability to describe storage solutions and use Amazon S3 to
-                      store and retrieve objects.
+                    Earners of this badge have completed the Getting Started with Cloud Operations training and achieved the required scores on the post-course assessment. They have demonstrated the ability to define the Well-Architected Framework and identify how to use AWS services to manage their AWS Cloud environment.
                     </td>
-                    <td>10/01/23</td>
+                    <td>10/03/23</td>
                   </tr>
+                  <tr>
+                    <td>
+                      <a
+                        target="_blank"
+                        href="https://www.credly.com/earner/earned/badge/715e5b98-b28c-48d3-b0db-6a2d9579fa7d"
+                      >
+                        <u>AWS Educate Getting Started with Databases</u>
+                      </a>
+                    </td>
+                    <td>
+                      Earners of this badge have completed the Getting Started with Databases
+                      training and achieved the required scores on the post-course assessment. They
+                      have demonstrated the ability to set up an Amazon Relational Database instance
+                      and how to use SQL commands to read and write to the database.
+                    </td>
+                    <td>10/03/23</td>
+                  </tr>
+
                   <tr>
                     <td>
                       <a
@@ -54,7 +69,10 @@ const About = () => {
                       </a>
                     </td>
                     <td>
-                    Earners of this badge have completed the Getting Started with Compute training and achieved the required scores on the post-course assessment. They have demonstrated the ability to describe different types of compute and use Amazon EC2 to create a compute instance.
+                      Earners of this badge have completed the Getting Started with Compute training
+                      and achieved the required scores on the post-course assessment. They have
+                      demonstrated the ability to describe different types of compute and use Amazon
+                      EC2 to create a compute instance.
                     </td>
                     <td>10/03/23</td>
                   </tr>
@@ -68,9 +86,29 @@ const About = () => {
                       </a>
                     </td>
                     <td>
-                    Earners of this badge have completed the Getting Started with Networking training and achieved the required scores on the post-course assessment. They have demonstrated the ability to describe different ways to manage a network and how to use an Amazon VPC to do so.
+                      Earners of this badge have completed the Getting Started with Networking
+                      training and achieved the required scores on the post-course assessment. They
+                      have demonstrated the ability to describe different ways to manage a network
+                      and how to use an Amazon VPC to do so.
                     </td>
                     <td>10/03/23</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a
+                        target="_blank"
+                        href="https://www.credly.com/badges/d65b8e5b-f2f3-4419-8048-2b1ee772c3ee"
+                      >
+                        <u>AWS Educate Getting Started with Storage</u>
+                      </a>
+                    </td>
+                    <td>
+                      Earners of this badge have completed the Getting Started with Storage training
+                      and achieved the required scores on the post-course assessment. They have
+                      demonstrated the ability to describe storage solutions and use Amazon S3 to
+                      store and retrieve objects.
+                    </td>
+                    <td>10/01/23</td>
                   </tr>
                 </tbody>
               </table>

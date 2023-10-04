@@ -31,7 +31,7 @@ const About = () => {
                     <td>
                       <a
                         target="_blank"
-                        href="https://www.credly.com/earner/earned/badge/5f4da139-2cb2-400c-89f0-cb0c3692bc7d"
+                        href="https://www.credly.com/badges/5f4da139-2cb2-400c-89f0-cb0c3692bc7d/public_url"
                       >
                         <u>AWS Educate Getting Started with Cloud Ops</u>
                       </a>
@@ -45,7 +45,7 @@ const About = () => {
                     <td>
                       <a
                         target="_blank"
-                        href="https://www.credly.com/earner/earned/badge/715e5b98-b28c-48d3-b0db-6a2d9579fa7d"
+                        href="https://www.credly.com/badges/715e5b98-b28c-48d3-b0db-6a2d9579fa7d/public_url"
                       >
                         <u>AWS Educate Getting Started with Databases</u>
                       </a>
@@ -63,7 +63,7 @@ const About = () => {
                     <td>
                       <a
                         target="_blank"
-                        href="https://www.credly.com/earner/earned/badge/ab89689d-871c-45fa-94dc-cf77b26c1bf0"
+                        href="https://www.credly.com/badges/ab89689d-871c-45fa-94dc-cf77b26c1bf0/public_url"
                       >
                         <u>AWS Educate Getting Started with Compute</u>
                       </a>
@@ -80,7 +80,7 @@ const About = () => {
                     <td>
                       <a
                         target="_blank"
-                        href="https://www.credly.com/earner/earned/badge/b9c6035a-09ec-4cbe-b4b1-f7beacb956eb"
+                        href="https://www.credly.com/badges/b9c6035a-09ec-4cbe-b4b1-f7beacb956eb/public_url"
                       >
                         <u>AWS Educate Getting Started with Networking</u>
                       </a>
@@ -97,7 +97,7 @@ const About = () => {
                     <td>
                       <a
                         target="_blank"
-                        href="https://www.credly.com/badges/d65b8e5b-f2f3-4419-8048-2b1ee772c3ee"
+                        href="https://www.credly.com/badges/d65b8e5b-f2f3-4419-8048-2b1ee772c3ee/public_url"
                       >
                         <u>AWS Educate Getting Started with Storage</u>
                       </a>

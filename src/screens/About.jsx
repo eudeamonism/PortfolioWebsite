@@ -31,6 +31,20 @@ const About = () => {
                     <td>
                       <a
                         target="_blank"
+                        href="https://www.credly.com/badges/192e218b-8baa-4fb5-808d-0197530eaa46/public_url"
+                      >
+                        <u>AWS Educate Getting Started with Security</u>
+                      </a>
+                    </td>
+                    <td>
+                    Earners of this badge have completed the Getting Started with Security training and achieved the required scores on the post-course assessment. They have demonstrated the ability to use AWS Identity and Access Management (AWS IAM) and identify additional AWS security services.
+                    </td>
+                    <td>10/05/23</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a
+                        target="_blank"
                         href="https://www.credly.com/badges/5f4da139-2cb2-400c-89f0-cb0c3692bc7d/public_url"
                       >
                         <u>AWS Educate Getting Started with Cloud Ops</u>

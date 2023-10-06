@@ -31,13 +31,34 @@ const About = () => {
                     <td>
                       <a
                         target="_blank"
+                        href="https://www.credly.com/badges/ec6dcaa2-249c-4926-a1da-10464e20e84d/public_url"
+                      >
+                        <u>AWS Educate Getting Started with Serverless</u>
+                      </a>
+                    </td>
+                    <td>
+                      Earners of this badge have completed the Getting Started with Serverless
+                      training and achieved the required scores on the post-course assessment. They
+                      have demonstrated the ability to describe how to configure an AWS Lambda
+                      function and identify services like Amazon Simple Queue Service, Amazon Simple
+                      Notification Service, and API Gateway to scale data.
+                    </td>
+                    <td>10/06/23</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a
+                        target="_blank"
                         href="https://www.credly.com/badges/192e218b-8baa-4fb5-808d-0197530eaa46/public_url"
                       >
                         <u>AWS Educate Getting Started with Security</u>
                       </a>
                     </td>
                     <td>
-                    Earners of this badge have completed the Getting Started with Security training and achieved the required scores on the post-course assessment. They have demonstrated the ability to use AWS Identity and Access Management (AWS IAM) and identify additional AWS security services.
+                      Earners of this badge have completed the Getting Started with Security
+                      training and achieved the required scores on the post-course assessment. They
+                      have demonstrated the ability to use AWS Identity and Access Management (AWS
+                      IAM) and identify additional AWS security services.
                     </td>
                     <td>10/05/23</td>
                   </tr>
@@ -51,7 +72,10 @@ const About = () => {
                       </a>
                     </td>
                     <td>
-                    Earners of this badge have completed the Getting Started with Cloud Operations training and achieved the required scores on the post-course assessment. They have demonstrated the ability to define the Well-Architected Framework and identify how to use AWS services to manage their AWS Cloud environment.
+                      Earners of this badge have completed the Getting Started with Cloud Operations
+                      training and achieved the required scores on the post-course assessment. They
+                      have demonstrated the ability to define the Well-Architected Framework and
+                      identify how to use AWS services to manage their AWS Cloud environment.
                     </td>
                     <td>10/03/23</td>
                   </tr>

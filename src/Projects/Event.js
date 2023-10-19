@@ -22,7 +22,7 @@ const Event = () => {
             </Link>
           </motion.div>
           <motion.div whileHover={{ color: "lightgrey" }}>
-            <Link href="https://neighbors-ten.vercel.app/" isExternal>
+            <Link href="https://neighbors-beta.vercel.app/" isExternal>
               <FiExternalLink style={{ width: "25px", height: "25px", display: "inline-block" }} />
             </Link>
           </motion.div>

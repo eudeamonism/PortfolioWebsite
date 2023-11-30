@@ -9,7 +9,7 @@ const Event = () => {
       <Box borderWidth={"1px"} p={{ base: "1em", md: "1.5em", lg: "2em" }} mt="-1">
         <HStack alignItems={"center"}>
           <Text color={"#FF9E0D"} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
-            Neighbors Sandbox
+            Neighbors App
           </Text>
           <motion.div whileHover={{ color: "lightgrey" }}>
             <Link href="https://github.com/eudeamonism/neighborsWebsite" pt="1" isExternal>
@@ -28,8 +28,15 @@ const Event = () => {
           </motion.div>
         </HStack>
         <Text color={"#1B4F8C"} fontSize={{ base: "sm", md: "md", lg: "lg" }}>
-          A Sandbox project meant to explore features through a complaint-like web app meant for
-          users to report complaints or disturbances in their neighborhood.
+          Neighbors is a community engagement platform that empowers residents to connect and
+          address local concerns. Through a user-friendly interface, residents can create accounts
+          secured by Captcha and Google Auth, post complaints about nuisances like speeding, theft,
+          and pollution, and upload supporting images. Powered by a MERN stack architecture,
+          Neighbors leverages REST API for data access and Cloudinary API for image management.
+          Additionally, it employs Redux for global state handling, Chakra UI Library for UI/UX
+          design, Figma sketches for prototyping, and Git for version control. With features like
+          login authentication, middleware, OTP password reset, and SMTP mail transfer, Neighbors
+          fosters a safe and secure environment for community engagement.
         </Text>
         <UnorderedList color={"#1B4F8C"} fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4">
           <ListItem>Redux global state handling</ListItem>

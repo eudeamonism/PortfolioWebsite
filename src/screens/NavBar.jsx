@@ -11,12 +11,15 @@ import {
   Text,
   Link,
   MenuItem,
+  useColorMode
 } from "@chakra-ui/react";
 import TitleNav from "../components/TitleNav";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { NavLink } from "../components/NavLink";
+import { ColorModeSwitcher } from "../components/ColorModeSwitcher";
 
 const NavBar = () => {
+  const {colorMode, toggleColorMode} = useColorMode();
   const [activeLink, setActiveLink] = useState(null);
 
   const handleLinkClick = (link) => {
@@ -30,12 +33,12 @@ const NavBar = () => {
       {isLargerThan500 ? (
         <>
           <Flex flexDirection="row" justifyContent="space-evenly">
-            <NavLink
-              to="/"
-              onClick={() => handleLinkClick("/")}
-              active={activeLink === "/"}
-            >
-              <Text as='b' fontSize={{ base: "md", md: "lg", xl: "xl" }}>Evan Vargas</Text>
+          <ColorModeSwitcher />
+            
+            <NavLink to="/" onClick={() => handleLinkClick("/")} active={activeLink === "/"}>
+              <Text as="b" fontSize={{ base: "md", md: "lg", xl: "xl" }}>
+                Evan Vargas
+              </Text>
             </NavLink>
             <NavLink
               to="/about"
@@ -65,14 +68,13 @@ const NavBar = () => {
             >
               <Text fontSize={{ base: "md", md: "lg", xl: "xl" }}>Contact</Text>
             </NavLink>
-            
           </Flex>
         </>
       ) : (
         <Flex mt="4" gap="4">
           <Menu>
             <MenuButton as={Button} rightIcon={<HamburgerIcon />} variant="link" fontSize="xl" />
-            
+
             <MenuList>
               <MenuItem>
                 <NavLink to="/" onClick={() => handleLinkClick("/")}>

@@ -75,9 +75,8 @@ const Skills = () => {
             <li>
               <b>APIs and More</b> &emsp; Password hashing, tokenization of data, testing APIs,
               constructing REST APIs, CRUD operations, application deployment, PayPal & OpenAI API
-              integration, Cloudinary API, OTP Password Reset, extensive library implementation,
-              developing knowledge on AWS and Azure services and utilization and Docker images and
-              containers..
+              integration, Cloudinary API, OTP Password Reset, extensive library implementation, Cypress, Testing, and
+              beginner understanding of cloud services from Azure and AWS.
             </li>
           </ul>
 

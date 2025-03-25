@@ -365,6 +365,22 @@ const About = () => {
                 </thead>
                 <tbody>
                   <tr>
+                    <td>VLK Architects</td>
+                    <td>BIM Process Specialist</td>
+                    <td>
+                    I collaborated with architects and designers to analyze the firm's workflow requirements and developed plugins tailored to automate tedious and repetitive tasks, such as renumbering doors and room numbers across multiple floors, automating sheet data, accurately centering rooms, and dimensioning, significantly enhancing operational efficiency and accuracy.
+                    </td>
+                    <td>2024 to 2025</td>
+                  </tr>
+                  <tr>
+                    <td>Delca Design Group</td>
+                    <td>Project Manager</td>
+                    <td>
+                    I served as a project manager, overseeing architectural record data for an existing entertainment complex, coordinating revisions for kitchen layouts in the café, and facilitating planning efforts for the pizza factory.
+                    </td>
+                    <td>2024</td>
+                  </tr>
+                  <tr>
                     <td>Sheldon ISD</td>
                     <td>STEM English</td>
                     <td>

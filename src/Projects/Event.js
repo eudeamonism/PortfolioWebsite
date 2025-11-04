@@ -1,80 +1,141 @@
-import { Text, Link, HStack, UnorderedList, ListItem, Box, Container } from "@chakra-ui/react";
+import {
+  Text,
+  Link,
+  HStack,
+  UnorderedList,
+  ListItem,
+  Box,
+  Container,
+  Badge,
+  VisuallyHidden,
+} from "@chakra-ui/react";
 import { AiOutlineGithub } from "react-icons/ai";
-import { FiExternalLink } from "react-icons/fi";
 import { motion } from "framer-motion";
 
 const Event = () => {
   return (
-    <Container minW={"400px"} maxW="container.xl">
-      <Box borderWidth={"1px"} p={{ base: "1em", md: "1.5em", lg: "2em" }} mt="-1">
-        <HStack alignItems={"center"}>
-          <Text color={"#FF9E0D"} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
-            Neighbors App
-          </Text>
-          <motion.div whileHover={{ color: "lightgrey" }}>
-            <Link href="https://github.com/eudeamonism/neighborsWebsite" pt="1" isExternal>
-              <AiOutlineGithub style={{ width: "25px", height: "25px", display: "inline-block" }} />
-            </Link>
-          </motion.div>
-          <motion.div whileHover={{ color: "lightgrey" }}>
-            <Link href="https://github.com/eudeamonism/neighborsAPI" pt="1" isExternal>
-              <AiOutlineGithub style={{ width: "25px", height: "25px", display: "inline-block" }} />
-            </Link>
-          </motion.div>
-          <motion.div whileHover={{ color: "lightgrey" }}>
-            <Link href="https://neighbors-beta.vercel.app/" isExternal>
-              <FiExternalLink style={{ width: "25px", height: "25px", display: "inline-block" }} />
-            </Link>
-          </motion.div>
+    <Container minW="400px" maxW="container.xl">
+      {/* --- Neighbors App --- */}
+      <Box borderWidth="1px" p={{ base: "1em", md: "1.5em", lg: "2em" }} mt="-1">
+        <HStack alignItems="center" justify="space-between">
+          <HStack spacing={2} alignItems="center">
+            <Text color="#FF9E0D" as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
+              Neighbors App
+            </Text>
+
+            {/* --- Stack Tags --- */}
+            <Badge variant="subtle" colorScheme="purple" fontSize={{ base: "0.6rem", md: "0.75rem" }}>
+              MERN Stack
+            </Badge>
+            <Badge variant="subtle" colorScheme="cyan" fontSize={{ base: "0.6rem", md: "0.75rem" }}>
+              Redux
+            </Badge>
+            <Badge variant="subtle" colorScheme="orange" fontSize={{ base: "0.6rem", md: "0.75rem" }}>
+              Chakra UI
+            </Badge>
+            <Badge variant="subtle" colorScheme="pink" fontSize={{ base: "0.6rem", md: "0.75rem" }}>
+              Cloudinary
+            </Badge>
+          </HStack>
+
+          {/* --- GitHub Repos --- */}
+          <HStack spacing={3}>
+            <motion.div whileHover={{ scale: 1.05 }}>
+              <Link
+                href="https://github.com/eudeamonism/neighborsWebsite"
+                isExternal
+                rel="noopener noreferrer"
+                aria-label="Open Neighbors Website repository"
+              >
+                <AiOutlineGithub style={{ width: 25, height: 25, display: "inline-block" }} />
+                <VisuallyHidden>GitHub Website</VisuallyHidden>
+              </Link>
+            </motion.div>
+
+            <motion.div whileHover={{ scale: 1.05 }}>
+              <Link
+                href="https://github.com/eudeamonism/neighborsAPI"
+                isExternal
+                rel="noopener noreferrer"
+                aria-label="Open Neighbors API repository"
+              >
+                <AiOutlineGithub style={{ width: 25, height: 25, display: "inline-block" }} />
+                <VisuallyHidden>GitHub API</VisuallyHidden>
+              </Link>
+            </motion.div>
+          </HStack>
         </HStack>
-        <Text color={"#1B4F8C"} fontSize={{ base: "sm", md: "md", lg: "lg" }}>
-          Neighbors is a community engagement platform that empowers residents to connect and
-          address local concerns. Through a user-friendly interface, residents can create accounts
-          secured by Captcha and Google Auth, post complaints about nuisances like speeding, theft,
-          and pollution, and upload supporting images. Powered by a MERN stack architecture,
-          Neighbors leverages REST API for data access and Cloudinary API for image management.
-          Additionally, it employs Redux for global state handling, Chakra UI Library for UI/UX
-          design, Figma sketches for prototyping, and Git for version control. With features like
-          login authentication, middleware, OTP password reset, and SMTP mail transfer, Neighbors
-          fosters a safe and secure environment for community engagement.
+
+        {/* --- Description --- */}
+        <Text color="#1B4F8C" fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="2">
+          Neighbors is a community engagement platform enabling residents to report local issues and
+          share neighborhood updates. It uses a MERN stack with Redux for state management and
+          Chakra UI for accessibility and consistency. The platform includes Google CAPTCHA, OTP
+          resets, and secure mail transfer via SMTP, ensuring a safe and responsive user experience.
         </Text>
-        <UnorderedList color={"#1B4F8C"} fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4">
-          <ListItem>Redux global state handling</ListItem>
-          <ListItem>Utilization of REST API: Data access via REST API.</ListItem>
-          <ListItem>Use of MongoDB, Express, React, and Node: MERN stack.</ListItem>
-          <ListItem>Chakra UI Library for UI/UX design</ListItem>
-          <ListItem>Figma Sketches</ListItem>
-          <ListItem>Use of Git Repository for version control: Version control with Git.</ListItem>
-          <ListItem>Upload Images and Delete Image via Cloudinary API</ListItem>
-          <ListItem>Login Authentication and Middleware</ListItem>
-          <ListItem>OTB Password Reset</ListItem>
-          <ListItem>Google CAPTCHA</ListItem>
-          <ListItem>SMTP Mail Transfer</ListItem>
+
+        {/* --- Highlights --- */}
+        <UnorderedList color="#1B4F8C" fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4" spacing={1.5}>
+          <ListItem>Global state management via Redux Toolkit</ListItem>
+          <ListItem>REST API integration for CRUD operations</ListItem>
+          <ListItem>Cloudinary API for image uploads and deletions</ListItem>
+          <ListItem>Google CAPTCHA and OTP password reset</ListItem>
+          <ListItem>SMTP mail service for secure notifications</ListItem>
+          <ListItem>Responsive UI using Chakra UI and Figma prototypes</ListItem>
+          <ListItem>Authentication middleware and role-based routing</ListItem>
+          <ListItem>Version control and CI with Git and GitHub</ListItem>
         </UnorderedList>
       </Box>
-      <Box borderWidth={"1px"} p={{ base: "1em", md: "1.5em", lg: "2em" }} mt="4">
-        <HStack alignItems={"center"}>
-          <Text color={"#FF9E0D"} as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
-            Favorite Place App
-          </Text>
-          <motion.div whileHover={{ color: "lightgrey" }}>
-            <Link href="https://github.com/eudeamonism/mErN" pt="1" isExternal>
-              <AiOutlineGithub style={{ width: "25px", height: "25px", display: "inline-block" }} />
+
+      {/* --- Favorite Place App --- */}
+      <Box borderWidth="1px" p={{ base: "1em", md: "1.5em", lg: "2em" }} mt="4">
+        <HStack alignItems="center" justify="space-between">
+          <HStack spacing={2} alignItems="center">
+            <Text color="#FF9E0D" as="b" fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}>
+              Favorite Place App
+            </Text>
+
+            {/* --- Stack Tags --- */}
+            <Badge variant="subtle" colorScheme="purple" fontSize={{ base: "0.6rem", md: "0.75rem" }}>
+              MERN Stack
+            </Badge>
+            <Badge variant="subtle" colorScheme="cyan" fontSize={{ base: "0.6rem", md: "0.75rem" }}>
+              CSS Modules
+            </Badge>
+            <Badge variant="subtle" colorScheme="pink" fontSize={{ base: "0.6rem", md: "0.75rem" }}>
+              REST API
+            </Badge>
+          </HStack>
+
+          {/* --- GitHub Link --- */}
+          <motion.div whileHover={{ scale: 1.05 }}>
+            <Link
+              href="https://github.com/eudeamonism/mErN"
+              isExternal
+              rel="noopener noreferrer"
+              aria-label="Open Favorite Place App repository"
+            >
+              <AiOutlineGithub style={{ width: 25, height: 25, display: "inline-block" }} />
+              <VisuallyHidden>GitHub</VisuallyHidden>
             </Link>
           </motion.div>
         </HStack>
-        <Text color={"#1B4F8C"} fontSize={{ base: "sm", md: "md", lg: "lg" }}>
-          I created a destination application using the MERN stack. This application allows users to
-          create, delete, and share their favorite destinations. It has a simple login
-          authentication system that protects user data.
+
+        {/* --- Description --- */}
+        <Text color="#1B4F8C" fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="2">
+          Favorite Place is a full-stack web application that lets users create, delete, and share
+          their favorite destinations. Built with the MERN stack, it includes authentication,
+          geolocation search, and a clean modular styling approach for maintainability.
         </Text>
-        <UnorderedList color={"#1B4F8C"} fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4">
-          <ListItem>Use of props to handle state changes: State management with props.</ListItem>
-          <ListItem>Utilization of REST API: Data access via REST API.</ListItem>
-          <ListItem>Use of MongoDB, Express, React, and Node: MERN stack.</ListItem>
-          <ListItem>Use of CSS Modules: Custom CSS styles.</ListItem>
-          <ListItem>Use of Git Repository for version control: Version control with Git.</ListItem>
-          <ListItem>Use of geospatial queries: Location-based search.</ListItem>
+
+        {/* --- Highlights --- */}
+        <UnorderedList color="#1B4F8C" fontSize={{ base: "sm", md: "md", lg: "lg" }} mt="4" spacing={1.5}>
+          <ListItem>State management through component props</ListItem>
+          <ListItem>REST API for CRUD functionality</ListItem>
+          <ListItem>Geospatial queries for location-based search</ListItem>
+          <ListItem>CSS Modules for scoped component styling</ListItem>
+          <ListItem>MongoDB, Express, React, and Node integration</ListItem>
+          <ListItem>GitHub version control and collaboration</ListItem>
         </UnorderedList>
       </Box>
     </Container>

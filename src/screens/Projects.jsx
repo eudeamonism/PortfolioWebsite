@@ -36,7 +36,7 @@ const Contact = () => {
             Store
           </Tab>
           <Tab _selected={{ color: "white", bg: "#1796F3" }} fontWeight={"medium"}>
-            Cargo
+            Other
           </Tab>
         </TabList>
         <TabPanels>

@@ -13,10 +13,101 @@ const About = () => {
       >
         Experience
       </Heading>
+
       <Container maxW={"container.xl"} pt="10" minW={"lg"}>
         <Box pt={{ base: "20px", xl: "40px" }}>
-          <Container w="full" minW={"lg"} maxW="container.xl" mt={-12} borderWidth={"1px"}>
+          <Container
+            w="full"
+            minW={"lg"}
+            maxW="container.xl"
+            mt={-12}
+            borderWidth={"1px"}
+          >
             <Prose>
+              {/* =========================
+                  WORK EXPERIENCE (TABLE STYLE)
+                 ========================= */}
+              <h4>Work Experience</h4>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Employer</th>
+                    <th>Title</th>
+                    <th>Duty / Highlights</th>
+                    <th>Dates</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>VLK Architects · Houston, TX</td>
+                    <td>Software Dev — BIM Automation & Plugins</td>
+                    <td>
+                      Built Revit plugins and internal tooling in <strong>C#/.NET</strong>, <strong>Dynamo</strong>, and <strong>Python</strong> to automate renumbering, sheet data, and room/door workflows; authored documentation and delivered training; integrated Qualtrics/ACC/Azure for process automation and explored Microsoft Fabric paths.
+                    </td>
+                    <td>Jul 2024 – Mar 2025</td>
+                  </tr>
+
+                  <tr>
+                    <td>Freelance · Houston, TX</td>
+                    <td>Full-Stack Web Developer</td>
+                    <td>
+                      Delivered MERN apps with <strong>Redux</strong> and <strong>JWT</strong> auth; responsive UIs in React/Chakra/Tailwind; REST APIs and Cloudinary uploads; deployments on Vercel/Render; validated flows with Jest/RTL/Cypress; added real-time chat via WebSocket/Socket.io.
+                    </td>
+                    <td>Jul 2023 – Apr 2024</td>
+                  </tr>
+
+                  <tr>
+                    <td>Delca Design Group</td>
+                    <td>Project Manager (Architecture)</td>
+                    <td>
+                      Coordinated record drawings for existing complex; revisions for café kitchen layouts; planning for food production areas; stakeholder alignment and documentation control.
+                    </td>
+                    <td>2024</td>
+                  </tr>
+
+                  <tr>
+                    <td>Houston-area ISDs</td>
+                    <td>Educator (STEM, English & Writing)</td>
+                    <td>
+                      Project-based instruction; integrated Google/Microsoft tooling; created outcomes-driven curricula emphasizing communication, problem-solving, and technical writing.
+                    </td>
+                    <td>2016 – 2023</td>
+                  </tr>
+
+                  <tr>
+                    <td>Curry Boudreaux Architects</td>
+                    <td>Architectural Designer</td>
+                    <td>
+                      Produced medical/nonprofit CD sets using Revit/AutoCAD; created presentations and marketing assets with Adobe Suite.
+                    </td>
+                    <td>2010 – 2013</td>
+                  </tr>
+
+                  <tr>
+                    <td>Gary Design Architects</td>
+                    <td>Architectural Designer</td>
+                    <td>
+                      Residential elevations; brand collateral (logo/stationery); assisted renovation documentation.
+                    </td>
+                    <td>2009</td>
+                  </tr>
+
+                  <tr>
+                    <td>Kendall Heaton Architects</td>
+                    <td>Intern Architect</td>
+                    <td>
+                      Contributed to high-rise documentation (fire egress/interiors) using Cadvance CAD.
+                    </td>
+                    <td>2008</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <hr />
+
+              {/* =========================
+                  CERTIFICATIONS
+                 ========================= */}
               <h4>Certifications</h4>
               <table>
                 <thead>
@@ -31,17 +122,14 @@ const About = () => {
                     <td>
                       <a
                         target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.credly.com/badges/ec6dcaa2-249c-4926-a1da-10464e20e84d/public_url"
                       >
-                        <u>AWS Educate Getting Started with Serverless</u>
+                        <u>AWS Educate — Getting Started with Serverless</u>
                       </a>
                     </td>
                     <td>
-                      Earners of this badge have completed the Getting Started with Serverless
-                      training and achieved the required scores on the post-course assessment. They
-                      have demonstrated the ability to describe how to configure an AWS Lambda
-                      function and identify services like Amazon Simple Queue Service, Amazon Simple
-                      Notification Service, and API Gateway to scale data.
+                      Lambda fundamentals; API Gateway, SQS/SNS usage for scalable serverless patterns.
                     </td>
                     <td>10/06/23</td>
                   </tr>
@@ -49,16 +137,14 @@ const About = () => {
                     <td>
                       <a
                         target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.credly.com/badges/192e218b-8baa-4fb5-808d-0197530eaa46/public_url"
                       >
-                        <u>AWS Educate Getting Started with Security</u>
+                        <u>AWS Educate — Getting Started with Security</u>
                       </a>
                     </td>
                     <td>
-                      Earners of this badge have completed the Getting Started with Security
-                      training and achieved the required scores on the post-course assessment. They
-                      have demonstrated the ability to use AWS Identity and Access Management (AWS
-                      IAM) and identify additional AWS security services.
+                      IAM, core security services, least-privilege and identity best practices.
                     </td>
                     <td>10/05/23</td>
                   </tr>
@@ -66,16 +152,14 @@ const About = () => {
                     <td>
                       <a
                         target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.credly.com/badges/5f4da139-2cb2-400c-89f0-cb0c3692bc7d/public_url"
                       >
-                        <u>AWS Educate Getting Started with Cloud Ops</u>
+                        <u>AWS Educate — Getting Started with Cloud Ops</u>
                       </a>
                     </td>
                     <td>
-                      Earners of this badge have completed the Getting Started with Cloud Operations
-                      training and achieved the required scores on the post-course assessment. They
-                      have demonstrated the ability to define the Well-Architected Framework and
-                      identify how to use AWS services to manage their AWS Cloud environment.
+                      Well-Architected Framework; ops tooling and environment management.
                     </td>
                     <td>10/03/23</td>
                   </tr>
@@ -83,34 +167,29 @@ const About = () => {
                     <td>
                       <a
                         target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.credly.com/badges/715e5b98-b28c-48d3-b0db-6a2d9579fa7d/public_url"
                       >
-                        <u>AWS Educate Getting Started with Databases</u>
+                        <u>AWS Educate — Getting Started with Databases</u>
                       </a>
                     </td>
                     <td>
-                      Earners of this badge have completed the Getting Started with Databases
-                      training and achieved the required scores on the post-course assessment. They
-                      have demonstrated the ability to set up an Amazon Relational Database instance
-                      and how to use SQL commands to read and write to the database.
+                      RDS setup; SQL read/write; relational modeling overview.
                     </td>
                     <td>10/03/23</td>
                   </tr>
-
                   <tr>
                     <td>
                       <a
                         target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.credly.com/badges/ab89689d-871c-45fa-94dc-cf77b26c1bf0/public_url"
                       >
-                        <u>AWS Educate Getting Started with Compute</u>
+                        <u>AWS Educate — Getting Started with Compute</u>
                       </a>
                     </td>
                     <td>
-                      Earners of this badge have completed the Getting Started with Compute training
-                      and achieved the required scores on the post-course assessment. They have
-                      demonstrated the ability to describe different types of compute and use Amazon
-                      EC2 to create a compute instance.
+                      EC2 instance fundamentals; compute families and use cases.
                     </td>
                     <td>10/03/23</td>
                   </tr>
@@ -118,16 +197,14 @@ const About = () => {
                     <td>
                       <a
                         target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.credly.com/badges/b9c6035a-09ec-4cbe-b4b1-f7beacb956eb/public_url"
                       >
-                        <u>AWS Educate Getting Started with Networking</u>
+                        <u>AWS Educate — Getting Started with Networking</u>
                       </a>
                     </td>
                     <td>
-                      Earners of this badge have completed the Getting Started with Networking
-                      training and achieved the required scores on the post-course assessment. They
-                      have demonstrated the ability to describe different ways to manage a network
-                      and how to use an Amazon VPC to do so.
+                      VPC basics; subnets, routing, and network controls.
                     </td>
                     <td>10/03/23</td>
                   </tr>
@@ -135,26 +212,30 @@ const About = () => {
                     <td>
                       <a
                         target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.credly.com/badges/d65b8e5b-f2f3-4419-8048-2b1ee772c3ee/public_url"
                       >
-                        <u>AWS Educate Getting Started with Storage</u>
+                        <u>AWS Educate — Getting Started with Storage</u>
                       </a>
                     </td>
                     <td>
-                      Earners of this badge have completed the Getting Started with Storage training
-                      and achieved the required scores on the post-course assessment. They have
-                      demonstrated the ability to describe storage solutions and use Amazon S3 to
-                      store and retrieve objects.
+                      S3 object storage patterns; lifecycle and retrieval.
                     </td>
                     <td>10/01/23</td>
                   </tr>
                 </tbody>
               </table>
+
+              <hr />
+
+              {/* =========================
+                  CONTINUING EDUCATION (TABLE STYLE)
+                 ========================= */}
               <h4>Continuing Education</h4>
               <table>
                 <thead>
                   <tr>
-                    <th>Courses</th>
+                    <th>Course / Source</th>
                     <th>Skills Gained</th>
                     <th>Course</th>
                     <th>Practice</th>
@@ -163,173 +244,232 @@ const About = () => {
                 <tbody>
                   <tr>
                     <td>
-                      <a
-                        target="_blank"
-                        href="https://www.udemy.com/course/learn-to-build-an-e-commerce-app-with-react-and-chakra-ui/"
-                      >
-                        <u>Online Ecommerce Website</u>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/">
+                        <u>Modern Front-End Development</u>
                       </a>
                     </td>
                     <td>
-                      I learned how to create a fully functional e-commerce application using React,
-                      Redux, NodeJS, Express, MongoDB, PayPal, JSON tokens, bcrypt, Yup, Formik,
-                      Git, and GitHub. I created a user interface with React and Redux, made CRUD
-                      API calls with NodeJS and Express, stored data in MongoDB, accepted payments
-                      with PayPal, authenticated users with JSON tokens and bcrypt, handled errors
-                      with Yup and Formik, versioned my code with Git and GitHub, and styled my
-                      application with Chakra UI. Additionally, I created user and administrator
-                      login accounts where the administrator has editing privileges such that he can
-                      add or remove users and products while the user can add and remove products
-                      and update his credentials.
+                      React 18, TypeScript, Next.js 15 App Router, Tailwind 4, Chakra; accessibility and metadata; reusable hooks; Redux Toolkit.
                     </td>
-                    <td>21 hours</td>
-                    <td>60 hours+</td>
+                    <td>25 hrs</td>
+                    <td>80+ hrs</td>
                   </tr>
+
                   <tr>
                     <td>
-                      <a
-                        target="_blank"
-                        href="https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/"
-                      >
-                        <u color="red">MERN Applicatons</u>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.typescriptlang.org/">
+                        <u>TypeScript Fundamentals</u>
                       </a>
                     </td>
                     <td>
-                      I created a full-stack event application with a variety of CRUD APIs. It also
-                      has user login and authentication. I learned how to utilize React and various
-                      ways of state management, such as props and Redux, while creating CRUD APIs
-                      with NodeJS and housing data in MongoDB.
+                      Typing React/Next codebases; interfaces, unions, generics; type utilities; safer refactors and CI integration.
                     </td>
-                    <td>19 hours</td>
-                    <td>50 hours+</td>
+                    <td>15 hrs</td>
+                    <td>50+ hrs</td>
                   </tr>
+
                   <tr>
                     <td>
-                      <a
-                        target="_blank"
-                        href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
-                      >
-                        <u color="red">React</u>
+                      <a target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Learn/CSS">
+                        <u>CSS Flexbox & Grid</u>
                       </a>
                     </td>
                     <td>
-                      I took refresher exercises on JavaScript specific concepts endemic to React. I
-                      learned how to create mini applications that utilize React hooks, such as
-                      useEffect, useState, and useReducer, while exploring various strategies for
-                      state management through portals, refs, and introduction to TypeScript.
+                      Responsive multi-column layouts; adaptive nav; alignment/wrapping strategies across browsers.
                     </td>
-                    <td>48 hours</td>
-                    <td>60 hours+</td>
+                    <td>10 hrs</td>
+                    <td>40+ hrs</td>
                   </tr>
+
                   <tr>
                     <td>
-                      <a
-                        target="_blank"
-                        href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"
-                      >
-                        <u color="red">NodeJS Bootcamp</u>
+                      <a target="_blank" rel="noopener noreferrer" href="https://nextjs.org/learn">
+                        <u>Next.js 15 & Full-Stack Integration</u>
                       </a>
                     </td>
                     <td>
-                      I created a modern back-end stack utilizing NodeJS, Express, MongoDB, and
-                      Mongoose. I used server-side rendering with Pug templating instead of React. I
-                      created a RESTful API with CRUD operations, and I added filters and
-                      pagination. I implemented authentication and authorization, including password
-                      reset. I learned about security, encryption, and sanitization, and I
-                      implemented these concepts in my application, which was a tourist retreat
-                      website.
+                      Server/Client Components, SSR/ISR; API routes with MongoDB/Prisma; Vercel deploys; perf/accessibility tuning.
                     </td>
-                    <td>35 hours</td>
-                    <td>70 hours+</td>
+                    <td>20 hrs</td>
+                    <td>60+ hrs</td>
                   </tr>
+
                   <tr>
                     <td>
-                      <a
-                        target="_blank"
-                        href="https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/"
-                      >
-                        <u color="red">Javascript Bootcamp</u>
+                      <a target="_blank" rel="noopener noreferrer" href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/">
+                        <u>WPF Forms & MVVM</u>
                       </a>
                     </td>
                     <td>
-                      I learned fundamental concepts of JavaScript that allow me to write effective
-                      functions, handle data, understand prototypes, handle events, manipulate the
-                      DOM, and strengthen object-oriented programming concepts.
+                      XAML data-binding; events; MVVM separation; prototyping dropdowns/forms/messages.
                     </td>
-                    <td>25 hours</td>
-                    <td>50 hours+</td>
+                    <td>10 hrs</td>
+                    <td>30+ hrs</td>
                   </tr>
+
                   <tr>
                     <td>
-                      <a
-                        target="_blank"
-                        href="https://www.youtube.com/watch?v=0HcWm2AHnOI&list=PLLTvOn0ouyMtZNbxp7udZIw9uZhOaw6VW&index=3"
-                      >
-                        <u color="red">Photo Slider</u>
+                      <a target="_blank" rel="noopener noreferrer" href="https://learn.microsoft.com/en-us/power-bi/">
+                        <u>Power BI</u>
                       </a>
                     </td>
-                    <td>I created and deployed a photo slider utilizing Typescript and React.</td>
-                    <td>1.5 hours</td>
-                    <td>5 hours+</td>
+                    <td>
+                      Data modeling, DAX measures, drill-downs; dashboards from Excel/CSV/SQL; narrative visualization.
+                    </td>
+                    <td>20 hrs</td>
+                    <td>50+ hrs</td>
                   </tr>
+
                   <tr>
                     <td>
-                      <a
-                        target="_blank"
-                        href="https://www.youtube.com/watch?v=ffEDkqfIzxM&pp=ygUOZWQgcm9oIGNoYXRib3Q%3D"
-                      >
-                        <u color="red">OpenAi Chat</u>
+                      <a target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/">
+                        <u>Documentation-Driven Development</u>
                       </a>
                     </td>
-                    <td>I created a chat utilizing OpenAI API and React</td>
-                    <td>3 hours</td>
-                    <td>10 hours+</td>
+                    <td>
+                      Doc-first builds; GitHub workflows; debugging across stack; UI/UX refinements with production-style projects.
+                    </td>
+                    <td>Ongoing</td>
+                    <td>Continuous</td>
                   </tr>
+
                   <tr>
                     <td>
-                      <a
-                        target="_blank"
-                        href="https://www.udemy.com/course/javascript-object-oriented-h/"
-                      >
-                        <u color="red">JS OOP</u>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/learn-to-build-an-e-commerce-app-with-react-and-chakra-ui/">
+                        <u>Online E-commerce (React/Chakra)</u>
                       </a>
                     </td>
-                    <td>I learned more about Object Oriented Programming with Javascript</td>
-                    <td>2 hours</td>
-                    <td>3 hours+</td>
+                    <td>
+                      MERN + Redux; PayPal integration; JWT/bcrypt; Formik/Yup; error handling and deployment flows.
+                    </td>
+                    <td>21 hrs</td>
+                    <td>60+ hrs</td>
                   </tr>
+
                   <tr>
                     <td>
-                      <a
-                        target="_blank"
-                        href="https://www.udemy.com/course/complete-microsoft-sql-server-beginner-expert/"
-                      >
-                        <u color="red">SQL Databases</u>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/">
+                        <u>MERN Applications</u>
                       </a>
                     </td>
                     <td>
-                      I learned about creating queries, filtering, sorting, grouping, joining, and
-                      creating tables for Microsoft SQL, MySQL, PostgreSQL, and SQLLite.
+                      CRUD APIs; auth; React state strategies (props, Redux); MongoDB modeling.
                     </td>
-                    <td>2 hours</td>
-                    <td>5 hours+</td>
+                    <td>19 hrs</td>
+                    <td>50+ hrs</td>
                   </tr>
+
                   <tr>
                     <td>
-                      <a
-                        target="_blank"
-                        href="https://www.udemy.com/course/html5-fundamentals-for-beginners/"
-                      >
-                        <u color="red">HTML and CSS</u>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">
+                        <u>React (incl. Redux)</u>
                       </a>
                     </td>
-                    <td>I created a complete website with navigation using HTML and CSS.</td>
-                    <td>5 hours</td>
-                    <td>8 hours+</td>
+                    <td>
+                      Hooks (useEffect/useState/useReducer); portals/refs; TS intro in React apps.
+                    </td>
+                    <td>48 hrs</td>
+                    <td>60+ hrs</td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/">
+                        <u>Node.js Bootcamp</u>
+                      </a>
+                    </td>
+                    <td>
+                      Express/Mongoose; REST + filters/pagination; auth & password reset; security/sanitization; Pug SSR.
+                    </td>
+                    <td>35 hrs</td>
+                    <td>70+ hrs</td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/">
+                        <u>JavaScript Bootcamp</u>
+                      </a>
+                    </td>
+                    <td>
+                      Functions, data structures, prototypes, events, DOM manipulation, OOP.
+                    </td>
+                    <td>25 hrs</td>
+                    <td>50+ hrs</td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=0HcWm2AHnOI&list=PLLTvOn0ouyMtZNbxp7udZIw9uZhOaw6VW&index=3">
+                        <u>Photo Slider (TS + React)</u>
+                      </a>
+                    </td>
+                    <td>
+                      Deployed animated slider with TS/React; responsive styling and asset handling.
+                    </td>
+                    <td>1.5 hrs</td>
+                    <td>5+ hrs</td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=ffEDkqfIzxM">
+                        <u>OpenAI Chat (Vite + React)</u>
+                      </a>
+                    </td>
+                    <td>
+                      OpenAI API integration; role routing; auth gate; basic moderation/filters.
+                    </td>
+                    <td>3 hrs</td>
+                    <td>10+ hrs</td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/javascript-object-oriented-h/">
+                        <u>JS OOP</u>
+                      </a>
+                    </td>
+                    <td>
+                      OOP patterns in JS; classes, inheritance, composition.
+                    </td>
+                    <td>2 hrs</td>
+                    <td>3+ hrs</td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/complete-microsoft-sql-server-beginner-expert/">
+                        <u>SQL Databases</u>
+                      </a>
+                    </td>
+                    <td>
+                      Querying, grouping, joining across SQL Server/MySQL/PostgreSQL/SQLite.
+                    </td>
+                    <td>2 hrs</td>
+                    <td>5+ hrs</td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/html5-fundamentals-for-beginners/">
+                        <u>HTML & CSS</u>
+                      </a>
+                    </td>
+                    <td>
+                      Semantic structure; navigation; responsive page composition.
+                    </td>
+                    <td>5 hrs</td>
+                    <td>8+ hrs</td>
                   </tr>
                 </tbody>
               </table>
+
               <hr />
+
+              {/* =========================
+                  EDUCATION (TABLE STYLE)
+                 ========================= */}
               <h4>Education</h4>
               <table>
                 <thead>
@@ -343,111 +483,16 @@ const About = () => {
                   <tr>
                     <td>University of Houston</td>
                     <td>Master of Education</td>
-                    <td>8/13 - 12/15</td>
+                    <td>08/2013 – 12/2015</td>
                   </tr>
                   <tr>
                     <td>University of Houston</td>
                     <td>Bachelor of Architecture</td>
-                    <td>8/02 - 12/07</td>
+                    <td>08/2002 – 12/2007</td>
                   </tr>
                 </tbody>
               </table>
-              <hr />
-              <h4>Work Experience</h4>
-              <table>
-                <thead>
-                  <tr>
-                    <th>Employer</th>
-                    <th>Title</th>
-                    <th>Duty</th>
-                    <th>Dates</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>VLK Architects</td>
-                    <td>BIM Process Specialist</td>
-                    <td>
-                    I collaborated with architects and designers to analyze the firm's workflow requirements and developed plugins tailored to automate tedious and repetitive tasks, such as renumbering doors and room numbers across multiple floors, automating sheet data, accurately centering rooms, and dimensioning, significantly enhancing operational efficiency and accuracy.
-                    </td>
-                    <td>2024 to 2025</td>
-                  </tr>
-                  <tr>
-                    <td>Delca Design Group</td>
-                    <td>Project Manager</td>
-                    <td>
-                    I served as a project manager, overseeing architectural record data for an existing entertainment complex, coordinating revisions for kitchen layouts in the café, and facilitating planning efforts for the pizza factory.
-                    </td>
-                    <td>2024</td>
-                  </tr>
-                  <tr>
-                    <td>Sheldon ISD</td>
-                    <td>STEM English</td>
-                    <td>
-                      I created curriculum and lesson plans that incorporated real-world problems,
-                      collaborated with educators to facilitate student innovation and practice, and
-                      evaluated learners' ability to self-realize their potential as innovative
-                      practitioners of science, technology, engineering, and math.
-                    </td>
-                    <td>2019 to 2023</td>
-                  </tr>
-                  <tr>
-                    <td>Houston ISD</td>
-                    <td>Writing Teacher</td>
-                    <td>
-                      I created lessons for a diverse population of students, strengthening
-                      fundamental grammar and punctuation concepts through reading comprehension and
-                      student-centered activities.
-                    </td>
-                    <td>2018 to 2019</td>
-                  </tr>
-                  <tr>
-                    <td>Pasadena ISD</td>
-                    <td>English Teacher</td>
-                    <td>
-                      I created curriculum for a diverse range of learners by creating activities
-                      and station routines to meet students at their learning level.
-                    </td>
-                    <td>2016 to 2018</td>
-                  </tr>
-                  <tr>
-                    <td>Curry Boudreaux Architects</td>
-                    <td>Architectural Designer</td>
-                    <td>
-                      I created technical construction documents and specifications from schematics
-                      to final construction, with a focus on medical building renovations. I used
-                      software such as AutoCAD to create permit and shop documents, and Adobe Suite
-                      (Photoshop, InDesign, Illustrator) to create marketing materials and
-                      presentations.
-                    </td>
-                    <td>2010 to 2013</td>
-                  </tr>
-                  <tr>
-                    <td>Gary Design and Associates</td>
-                    <td>Architectural Designer</td>
-                    <td>
-                      I created the firm's stationery and logo design, and assisted with renovation
-                      blueprints for various mini-mansion homes. I used my design and drafting
-                      skills to create a cohesive brand identity for the firm, and to help clients
-                      visualize their dream homes.
-                    </td>
-                    <td>2009</td>
-                  </tr>
-                  <tr>
-                    <td>Kendall Heaton and Associates</td>
-                    <td>Architectural Designer</td>
-                    <td>
-                      As a technical construction document creator in an architectural record firm,
-                      I helped realize the infrastructural design for fire egress in a multimillion
-                      highrise. I also handled the design interiors for commercial restrooms in that
-                      building. I used my skills in drafting and design to create accurate and
-                      detailed drawings that helped ensure the safety and comfort of the building's
-                      occupants.
-                    </td>
-                    <td>2008</td>
-                  </tr>
-                </tbody>
-              </table>
+
               <hr />
             </Prose>
           </Container>

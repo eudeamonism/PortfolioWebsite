@@ -28,39 +28,54 @@ const Skills = () => {
             </li>
             <li>
               <b>HTML & JSX (Advanced)</b> &emsp; Semantic structure, ARIA attributes, accessible
-              forms, keyboard navigation, and component composition.
+              forms, keyboard navigation, and component composition for modern UI/UX.
             </li>
             <li>
               <b>Node.js (Proficient)</b> &emsp; REST APIs with Express; request/response lifecycle,
               middleware, validation, auth, and error handling.
             </li>
             <li>
-              <b>C#/.NET (Familiar → Growing)</b> &emsp; REST patterns, basic web APIs, and WPF/XAML
-              bindings; applying MVVM for separation of concerns.
+              <b>C#/.NET (Familiar → Growing)</b> &emsp; Console and web APIs, Revit plugin
+              automation, and WPF/XAML-style bindings; applying MVVM to keep UI, logic, and data
+              clearly separated.
             </li>
           </ul>
 
           <hr />
-          <h4>Front End</h4>
+          <h4>UI/UX & Front End</h4>
           <ul>
             <li>
+              <b>UI/UX & SPA Focus</b> &emsp; 3+ years designing and building Single-Page
+              Applications (SPAs) with React, emphasizing component-driven design, clear user
+              flows, and responsive layouts across desktop and mobile.
+            </li>
+            <li>
               <b>React 18</b> &emsp; Hooks, custom hooks, controlled forms, client/server component
-              boundaries, and performance hygiene.
+              boundaries, and performance hygiene (memoization, code splitting, lazy loading).
             </li>
             <li>
               <b>Next.js 15 (App Router)</b> &emsp; Routing, layouts, metadata, SSR/ISR, route
-              handlers, and deployment on Vercel.
+              handlers, and deployment on Vercel for production SPAs and hybrid apps.
             </li>
             <li>
-              <b>Tailwind CSS 4</b> &emsp; Utility-first, responsive design tokens, dark mode, and
-              component patterns that complement Chakra UI.
+              <b>Chakra UI & Material UI (MUI)</b> &emsp; Accessible primitives, design systems,
+              theming, and rapid prototyping of internal tools and dashboards.
             </li>
             <li>
-              <b>Chakra UI</b> &emsp; Accessible primitives, theming, tokens, and rapid prototyping.
+              <b>Tailwind CSS 4</b> &emsp; Utility-first tokens, responsive design, dark mode, and
+              layout patterns that complement component libraries.
+            </li>
+            <li>
+              <b>Bootstrap (Familiar)</b> &emsp; Grid, typography, and utility classes for
+              maintaining and extending legacy or quick-prototype UIs.
             </li>
             <li>
               <b>CSS Layout</b> &emsp; Flexbox & Grid, fluid typography, container queries, and
-              cross-browser consistency.
+              cross-browser consistency (Chrome, Firefox, Edge, Safari).
+            </li>
+            <li>
+              <b>Rapid Prototyping</b> &emsp; Turning requirements into HTML/CSS/JS or React
+              prototypes, then iterating based on usability and feedback.
             </li>
           </ul>
 
@@ -116,22 +131,31 @@ const Skills = () => {
 
           <hr />
           <h4>Data & Business Intelligence</h4>
-          <ul>
-            <li>
-              <b>Power BI</b> &emsp; Data modeling (star schema), relationships, calculated columns,
-              <b> DAX</b> measures, slicers/filters, drill-downs, and storytelling dashboards from
-              Excel/CSV/SQL sources.
-            </li>
-          </ul>
+<ul>
+  <li>
+    <b>Power BI (Intermediate)</b> &emsp; Building dashboards, modeling basic relationships,
+    creating visual reports, implementing slicers/filters, and shaping data from
+    Excel/CSV/SQL sources.
+  </li>
+</ul>
+
 
           <hr />
-          <h4>Desktop & Automation</h4>
-          <ul>
-            <li>
-              <b>WPF / XAML (Familiar → Growing)</b> &emsp; MVVM, bindings, commands, and simple
-              forms/dialogs for internal tools and automation UIs.
-            </li>
-          </ul>
+          <h4>Desktop, BIM & Automation</h4>
+<ul>
+  <li>
+    <b>WPF / XAML (Familiar → Growing)</b> &emsp; MVVM, bindings, commands, and simple
+    forms/dialogs for internal tools and automation UIs. Experience developing C#-based
+    interfaces for BIM workflows positions me to quickly adapt these skills to Tekla or
+    similar .NET plugin ecosystems.
+  </li>
+  <li>
+    <b>BIM Automation (Revit + Dynamo + C#)</b> &emsp; Developing plugins and scripts that
+    operate on 3D models, parameters, and views; experience with geometry-driven logic and
+    data workflows commonly found in structural and architectural automation.
+  </li>
+</ul>
+
 
           <hr />
           <h4>Tooling & DevOps</h4>

@@ -42,7 +42,13 @@ const About = () => {
                     <td>VLK Architects · Houston, TX</td>
                     <td>Software Dev — BIM Automation & Plugins</td>
                     <td>
-                      Built Revit plugins and internal tooling in <strong>C#/.NET</strong>, <strong>Dynamo</strong>, and <strong>Python</strong> to automate renumbering, sheet data, and room/door workflows; authored documentation and delivered training; integrated Qualtrics/ACC/Azure for process automation and explored Microsoft Fabric paths.
+                      Built Revit plugins and internal tooling in <strong>C#/.NET</strong>,{" "}
+                      <strong>Dynamo</strong>, and <strong>Python</strong> to automate
+                      renumbering, sheet data, and room/door workflows across BIM models;
+                      designed plugin UI panels and interaction flows for internal users;
+                      authored multi-level documentation and delivered training; integrated
+                      Qualtrics/ACC/Azure for process automation and explored Microsoft
+                      Fabric paths for future data workflows.
                     </td>
                     <td>Jul 2024 – Mar 2025</td>
                   </tr>
@@ -51,7 +57,14 @@ const About = () => {
                     <td>Freelance · Houston, TX</td>
                     <td>Full-Stack Web Developer</td>
                     <td>
-                      Delivered MERN apps with <strong>Redux</strong> and <strong>JWT</strong> auth; responsive UIs in React/Chakra/Tailwind; REST APIs and Cloudinary uploads; deployments on Vercel/Render; validated flows with Jest/RTL/Cypress; added real-time chat via WebSocket/Socket.io.
+                      Delivered Single-Page Applications (SPAs) with the{" "}
+                      <strong>MERN stack</strong>, <strong>Redux</strong>, and{" "}
+                      <strong>JWT</strong> auth; designed responsive, component-driven UIs
+                      in React/Chakra/Tailwind with attention to UX and accessibility;
+                      implemented REST APIs and Cloudinary uploads; deployed on
+                      Vercel/Render; validated user flows with Jest/RTL/Cypress; added
+                      real-time chat via WebSocket/Socket.io and verified behavior across
+                      modern browsers.
                     </td>
                     <td>Jul 2023 – Apr 2024</td>
                   </tr>
@@ -60,7 +73,10 @@ const About = () => {
                     <td>Delca Design Group</td>
                     <td>Project Manager (Architecture)</td>
                     <td>
-                      Coordinated record drawings for existing complex; revisions for café kitchen layouts; planning for food production areas; stakeholder alignment and documentation control.
+                      Coordinated record drawings for existing complex; revisions for café
+                      kitchen layouts; planning for food production areas; maintained
+                      stakeholder alignment, RFIs, and documentation control across design
+                      iterations.
                     </td>
                     <td>2024</td>
                   </tr>
@@ -69,7 +85,9 @@ const About = () => {
                     <td>Houston-area ISDs</td>
                     <td>Educator (STEM, English & Writing)</td>
                     <td>
-                      Project-based instruction; integrated Google/Microsoft tooling; created outcomes-driven curricula emphasizing communication, problem-solving, and technical writing.
+                      Project-based instruction; integrated Google/Microsoft tooling; created
+                      outcomes-driven curricula emphasizing communication, problem-solving,
+                      technical writing, and clear documentation for students and faculty.
                     </td>
                     <td>2016 – 2023</td>
                   </tr>
@@ -78,7 +96,8 @@ const About = () => {
                     <td>Curry Boudreaux Architects</td>
                     <td>Architectural Designer</td>
                     <td>
-                      Produced medical/nonprofit CD sets using Revit/AutoCAD; created presentations and marketing assets with Adobe Suite.
+                      Produced medical/nonprofit CD sets using Revit/AutoCAD; created
+                      presentations and marketing assets with Adobe Suite.
                     </td>
                     <td>2010 – 2013</td>
                   </tr>
@@ -87,7 +106,8 @@ const About = () => {
                     <td>Gary Design Architects</td>
                     <td>Architectural Designer</td>
                     <td>
-                      Residential elevations; brand collateral (logo/stationery); assisted renovation documentation.
+                      Residential elevations; brand collateral (logo/stationery); assisted
+                      renovation documentation.
                     </td>
                     <td>2009</td>
                   </tr>
@@ -96,7 +116,8 @@ const About = () => {
                     <td>Kendall Heaton Architects</td>
                     <td>Intern Architect</td>
                     <td>
-                      Contributed to high-rise documentation (fire egress/interiors) using Cadvance CAD.
+                      Contributed to high-rise documentation (fire egress/interiors) using
+                      Cadvance CAD.
                     </td>
                     <td>2008</td>
                   </tr>
@@ -129,7 +150,8 @@ const About = () => {
                       </a>
                     </td>
                     <td>
-                      Lambda fundamentals; API Gateway, SQS/SNS usage for scalable serverless patterns.
+                      Lambda fundamentals; API Gateway, SQS/SNS usage for scalable serverless
+                      patterns.
                     </td>
                     <td>10/06/23</td>
                   </tr>
@@ -144,7 +166,8 @@ const About = () => {
                       </a>
                     </td>
                     <td>
-                      IAM, core security services, least-privilege and identity best practices.
+                      IAM, core security services, least-privilege and identity best
+                      practices.
                     </td>
                     <td>10/05/23</td>
                   </tr>
@@ -249,7 +272,8 @@ const About = () => {
                       </a>
                     </td>
                     <td>
-                      React 18, TypeScript, Next.js 15 App Router, Tailwind 4, Chakra; accessibility and metadata; reusable hooks; Redux Toolkit.
+                      React 18, TypeScript, Next.js 15 App Router, Tailwind 4, Chakra;
+                      accessibility and metadata; reusable hooks; Redux Toolkit.
                     </td>
                     <td>25 hrs</td>
                     <td>80+ hrs</td>
@@ -257,12 +281,17 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://www.typescriptlang.org/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.typescriptlang.org/"
+                      >
                         <u>TypeScript Fundamentals</u>
                       </a>
                     </td>
                     <td>
-                      Typing React/Next codebases; interfaces, unions, generics; type utilities; safer refactors and CI integration.
+                      Typing React/Next codebases; interfaces, unions, generics; type
+                      utilities; safer refactors and CI integration.
                     </td>
                     <td>15 hrs</td>
                     <td>50+ hrs</td>
@@ -270,12 +299,17 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Learn/CSS">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://developer.mozilla.org/en-US/docs/Learn/CSS"
+                      >
                         <u>CSS Flexbox & Grid</u>
                       </a>
                     </td>
                     <td>
-                      Responsive multi-column layouts; adaptive nav; alignment/wrapping strategies across browsers.
+                      Responsive multi-column layouts; adaptive nav; alignment/wrapping
+                      strategies across browsers.
                     </td>
                     <td>10 hrs</td>
                     <td>40+ hrs</td>
@@ -283,12 +317,17 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://nextjs.org/learn">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://nextjs.org/learn"
+                      >
                         <u>Next.js 15 & Full-Stack Integration</u>
                       </a>
                     </td>
                     <td>
-                      Server/Client Components, SSR/ISR; API routes with MongoDB/Prisma; Vercel deploys; perf/accessibility tuning.
+                      Server/Client Components, SSR/ISR; API routes with MongoDB/Prisma;
+                      Vercel deploys; perf/accessibility tuning.
                     </td>
                     <td>20 hrs</td>
                     <td>60+ hrs</td>
@@ -296,12 +335,17 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/"
+                      >
                         <u>WPF Forms & MVVM</u>
                       </a>
                     </td>
                     <td>
-                      XAML data-binding; events; MVVM separation; prototyping dropdowns/forms/messages.
+                      XAML data-binding; events; MVVM separation; prototyping dropdowns,
+                      forms, and simple dialogs.
                     </td>
                     <td>10 hrs</td>
                     <td>30+ hrs</td>
@@ -309,12 +353,17 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://learn.microsoft.com/en-us/power-bi/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://learn.microsoft.com/en-us/power-bi/"
+                      >
                         <u>Power BI</u>
                       </a>
                     </td>
                     <td>
-                      Data modeling, DAX measures, drill-downs; dashboards from Excel/CSV/SQL; narrative visualization.
+                      Intro to data modeling concepts, basic DAX, and building interactive
+                      dashboards from Excel/CSV/SQL sources.
                     </td>
                     <td>20 hrs</td>
                     <td>50+ hrs</td>
@@ -322,12 +371,17 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://developer.mozilla.org/"
+                      >
                         <u>Documentation-Driven Development</u>
                       </a>
                     </td>
                     <td>
-                      Doc-first builds; GitHub workflows; debugging across stack; UI/UX refinements with production-style projects.
+                      Doc-first builds; GitHub workflows; debugging across stack; UI/UX
+                      refinements with production-style projects.
                     </td>
                     <td>Ongoing</td>
                     <td>Continuous</td>
@@ -335,12 +389,17 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/learn-to-build-an-e-commerce-app-with-react-and-chakra-ui/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.udemy.com/course/learn-to-build-an-e-commerce-app-with-react-and-chakra-ui/"
+                      >
                         <u>Online E-commerce (React/Chakra)</u>
                       </a>
                     </td>
                     <td>
-                      MERN + Redux; PayPal integration; JWT/bcrypt; Formik/Yup; error handling and deployment flows.
+                      MERN + Redux; PayPal integration; JWT/bcrypt; Formik/Yup; error
+                      handling and deployment flows.
                     </td>
                     <td>21 hrs</td>
                     <td>60+ hrs</td>
@@ -348,12 +407,17 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/"
+                      >
                         <u>MERN Applications</u>
                       </a>
                     </td>
                     <td>
-                      CRUD APIs; auth; React state strategies (props, Redux); MongoDB modeling.
+                      CRUD APIs; auth; React state strategies (props, Redux); MongoDB
+                      modeling.
                     </td>
                     <td>19 hrs</td>
                     <td>50+ hrs</td>
@@ -361,12 +425,17 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+                      >
                         <u>React (incl. Redux)</u>
                       </a>
                     </td>
                     <td>
-                      Hooks (useEffect/useState/useReducer); portals/refs; TS intro in React apps.
+                      Hooks (useEffect/useState/useReducer); portals/refs; TS intro in React
+                      apps.
                     </td>
                     <td>48 hrs</td>
                     <td>60+ hrs</td>
@@ -374,12 +443,17 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"
+                      >
                         <u>Node.js Bootcamp</u>
                       </a>
                     </td>
                     <td>
-                      Express/Mongoose; REST + filters/pagination; auth & password reset; security/sanitization; Pug SSR.
+                      Express/Mongoose; REST + filters/pagination; auth & password reset;
+                      security/sanitization; Pug SSR.
                     </td>
                     <td>35 hrs</td>
                     <td>70+ hrs</td>
@@ -387,7 +461,11 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/"
+                      >
                         <u>JavaScript Bootcamp</u>
                       </a>
                     </td>
@@ -400,12 +478,17 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=0HcWm2AHnOI&list=PLLTvOn0ouyMtZNbxp7udZIw9uZhOaw6VW&index=3">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.youtube.com/watch?v=0HcWm2AHnOI&list=PLLTvOn0ouyMtZNbxp7udZIw9uZhOaw6VW&index=3"
+                      >
                         <u>Photo Slider (TS + React)</u>
                       </a>
                     </td>
                     <td>
-                      Deployed animated slider with TS/React; responsive styling and asset handling.
+                      Deployed animated slider with TS/React; responsive styling and asset
+                      handling.
                     </td>
                     <td>1.5 hrs</td>
                     <td>5+ hrs</td>
@@ -413,12 +496,17 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=ffEDkqfIzxM">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.youtube.com/watch?v=ffEDkqfIzxM"
+                      >
                         <u>OpenAI Chat (Vite + React)</u>
                       </a>
                     </td>
                     <td>
-                      OpenAI API integration; role routing; auth gate; basic moderation/filters.
+                      OpenAI API integration; role routing; auth gate; basic
+                      moderation/filters.
                     </td>
                     <td>3 hrs</td>
                     <td>10+ hrs</td>
@@ -426,7 +514,11 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/javascript-object-oriented-h/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.udemy.com/course/javascript-object-oriented-h/"
+                      >
                         <u>JS OOP</u>
                       </a>
                     </td>
@@ -439,7 +531,11 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/complete-microsoft-sql-server-beginner-expert/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.udemy.com/course/complete-microsoft-sql-server-beginner-expert/"
+                      >
                         <u>SQL Databases</u>
                       </a>
                     </td>
@@ -452,7 +548,11 @@ const About = () => {
 
                   <tr>
                     <td>
-                      <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/course/html5-fundamentals-for-beginners/">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.udemy.com/course/html5-fundamentals-for-beginners/"
+                      >
                         <u>HTML & CSS</u>
                       </a>
                     </td>
